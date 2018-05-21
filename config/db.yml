@@ -1,0 +1,6 @@
+# Sequel Database Configuration
+
+development: "postgres://jkh@localhost/home_development"
+test: "postgres://jkh@localhost/home_test"
+production: "postgres://jkh@localhost/home_production"
+
