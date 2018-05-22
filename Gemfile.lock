@@ -1,0 +1,66 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    excon (0.62.0)
+    foreman (0.84.0)
+      thor (~> 0.19.1)
+    heroku (3.99.1)
+      heroku-api (= 0.4.2)
+      launchy (= 2.4.3)
+      multi_json (= 1.11.2)
+      net-ssh (= 2.9.2)
+      net-ssh-gateway (= 1.2.0)
+      netrc (= 0.10.3)
+      rest-client (= 1.6.8)
+      rubyzip (= 1.1.7)
+    heroku-api (0.4.2)
+      excon (~> 0.45)
+      multi_json (~> 1.8)
+    kgio (2.11.2)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    mime-types (1.25.1)
+    multi_json (1.11.2)
+    mustermann (1.0.2)
+    net-ssh (2.9.2)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    netrc (0.10.3)
+    pg (1.0.0)
+    public_suffix (3.0.2)
+    rack (2.0.5)
+    rack-protection (2.0.1)
+      rack
+    raindrops (0.19.0)
+    rdoc (6.0.4)
+    rest-client (1.6.8)
+      mime-types (~> 1.16)
+      rdoc (>= 2.4.2)
+    rubyzip (1.1.7)
+    sequel (5.8.0)
+    sinatra (2.0.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.1)
+      tilt (~> 2.0)
+    thor (0.19.4)
+    tilt (2.0.8)
+    unicorn (5.4.0)
+      kgio (~> 2.6)
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  foreman
+  heroku
+  pg
+  sequel
+  sinatra
+  unicorn
+
+BUNDLED WITH
+   1.15.3

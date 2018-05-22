@@ -9,4 +9,3 @@ gem "unicorn"
 # Database Stack
 gem "sequel"
 gem "pg"
-
