@@ -6,6 +6,6 @@ class Home < Sinatra::Base
     @version     = RUBY_VERSION
     @environment = ENV['RACK_ENV']
 
-    erb :welcome
+    haml :index
   end
 end

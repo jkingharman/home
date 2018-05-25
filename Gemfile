@@ -4,7 +4,9 @@ source "http://rubygems.org"
 gem "foreman"
 gem "heroku"
 gem "sinatra"
+gem "shotgun"
 gem "unicorn"
+gem "haml"
 
 # Database Stack
 gem "sequel"
