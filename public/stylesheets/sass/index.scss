@@ -1,0 +1,16 @@
+#index-about {
+  margin: 75px 10px;
+
+  ul a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  ul a:hover {
+    text-decoration: none;
+  }
+
+  ul li {
+    padding: 0.5rem;
+  }
+}

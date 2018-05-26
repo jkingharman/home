@@ -2,6 +2,11 @@
 $LOAD_PATH << File.expand_path(File.dirname(__FILE__))
 require "rubygems"
 require "bundler"
+require 'sass/plugin/rack'
+
+Sass::Plugin.options[:style] = :compressed
+use Sass::Plugin::Rack
+
 Bundler.require
 
 # Local config
