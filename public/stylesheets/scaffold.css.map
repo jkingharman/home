@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc,CAMZ,SAAW,CACT,MAAM,CAAE,IAAI,CACZ,KAAK,CAAE,IAAI,CAGb,IAAK,CACH,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,KAAK",
+"sources": ["sass/scaffold.scss"],
+"names": [],
+"file": "scaffold.css"
+}
