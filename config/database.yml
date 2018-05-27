@@ -1,0 +1,6 @@
+development:
+  adapter: postgresql
+  database: personal_site
+  username: jkh
+  password: Wittgenstein29
+  host: localhost

@@ -8,3 +8,8 @@ gem "shotgun"
 gem "unicorn"
 gem "haml"
 gem "sass"
+
+gem 'pg', '~> 0.18'
+gem "activerecord"
+gem "sinatra-activerecord"
+gem "rake"
