@@ -8,4 +8,8 @@ class Home < Sinatra::Base
 
     haml :index
   end
+
+  get "/reads" do
+    haml :reads
+  end
 end
