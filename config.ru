@@ -9,12 +9,11 @@ use Sass::Plugin::Rack
 
 Bundler.require
 
-# Local config
-require "find"
-%w{config/initializers lib}.each do |load_path|
-  Find.find(load_path) { |f| require f unless f.match(/\/\..+$/) || File.directory?(f) }
-end
+Dir.glob('./app/{controllers}/*.rb').each { |file| require file }
 
 # Load app
-require "home"
-run Home
+require_relative "app/controllers/application_controller"
+require_relative "app/controllers/scraps_controller"
+
+use ScrapsController
+run ApplicationController
