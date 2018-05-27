@@ -17,4 +17,4 @@
       %main
         .container
           = yield
-      = haml :_nav_footer
+      = haml :_nav_footer unless request.path_info == "/"
