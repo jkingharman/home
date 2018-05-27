@@ -5,7 +5,6 @@ gem "foreman"
 gem "heroku"
 gem "sinatra"
 gem "shotgun"
-gem "unicorn"
 gem "haml"
 gem "sass"
 

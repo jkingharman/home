@@ -8,7 +8,6 @@ Sass::Plugin.options[:style] = :compressed
 use Sass::Plugin::Rack
 
 Bundler.require
-
 Dir.glob('./app/{controllers}/*.rb').each { |file| require file }
 
 # Load app
