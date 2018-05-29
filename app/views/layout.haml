@@ -12,9 +12,11 @@
     %link{type: "text/css", rel: "stylesheet", href:"stylesheets/materialize.css",  media: "screen,projection"}
     %link{type: "text/css", rel: "stylesheet", href:"stylesheets/scaffold.css",  media: "screen,projection"}
     %link{type: "text/css", rel: "stylesheet", href:"stylesheets/index.css",  media: "screen,projection"}
+    %link{type: "text/css", rel: "stylesheet", href:"stylesheets/scrap.css",  media: "screen,projection"}
     %body
       %header
       %main
         .container
+          = haml :_nav_sidebar unless request.path_info == "/"
           = yield
       = haml :_nav_footer unless request.path_info == "/"
