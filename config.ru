@@ -1,23 +1,16 @@
-# Load path and gems/bundler
-$LOAD_PATH << File.expand_path(File.dirname(__FILE__))
-require "rubygems"
 require "bundler"
+Bundler.require
+
+require "rubygems"
 require 'sass/plugin/rack'
 require "active_record"
-
-
-require_relative 'app/models/scrap'
-
 
 Sass::Plugin.options[:style] = :compressed
 use Sass::Plugin::Rack
 
-Bundler.require
-Dir.glob('./app/{controllers}/*.rb').each { |file| require file }
-
 # Load app
-require_relative "app/controllers/application_controller"
-require_relative "app/controllers/scraps_controller"
+require_relative "app/app.rb"
 
-use ScrapsController
-run  ApplicationController
+use Assets
+use NotesController
+run ApplicationController

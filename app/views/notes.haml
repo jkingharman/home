@@ -1,0 +1,20 @@
+.row
+  #notes-nav.col.s1
+    #nav-inner
+      %ul
+        - @notes.keys.reverse.each do |year|
+          %li #{year}
+
+  #notes-content.col.s8
+    #title.col.s12
+      %h1.center Words
+      %p.center I write rarely but like it. I keep some things from over the years here.
+
+    #notes
+      - @notes.reverse_each do |year, notes|
+        #note-year
+          %h2 #{year}
+        %ul
+          - notes.each do |note|
+            %li
+              %a{href: ""} #{note.title}

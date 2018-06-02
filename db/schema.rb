@@ -15,11 +15,12 @@ ActiveRecord::Schema.define(version: 20180527175153) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "scraps", force: :cascade do |t|
-    t.string "title"
-    t.text "body"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "notes", force: :cascade do |t|
+    t.string "title", null: false
+    t.text "body", null: false
+    t.string "year", null: false
+    t.date "created_at", null: false
+    t.date "updated_at", null: false
   end
 
 end

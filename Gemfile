@@ -8,7 +8,12 @@ gem "shotgun"
 gem "haml"
 gem "sass"
 
+gem "sprockets"
+gem "yui-compressor"
+
 gem 'pg', '~> 0.18'
 gem "activerecord"
 gem "sinatra-activerecord"
 gem "rake"
+
+gem "pry"

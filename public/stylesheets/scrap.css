@@ -1,11 +1,2 @@
-#scrap-index {
-  margin-top: 12rem;
-}
-
-#scrap-inner {
-  list-style-type: none;
-}
-
-#content {
-  margin-top: 75px;
-}
+#notes-nav{margin-top:11.5rem}#notes-nav #nav-inner{list-style-type:none;font-weight:300}#notes-content{padding-left:50px}#notes-content #title h1{font-size:3rem;letter-spacing:-0.1rem;margin:20px 0 50px 0}#notes-content #title h1 p{font-size:0.85rem;margin:20px}#notes-content #notes{margin-top:-10px;list-style-type:none}#notes-content #notes h2{margin-bottom:0;font-size:1.5rem}#notes-content #notes ul{margin-bottom:0}
+/*# sourceMappingURL=scrap.css.map */
