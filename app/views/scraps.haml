@@ -2,8 +2,8 @@
   #scrap-index.col.s1
     #scrap-inner
       %ul
-      -# - @scraps.each do |scrap|
-      -#   %li scrap
+      - @years_published.each do |year|
+        %li #{year}
   #content.col.s8
     #scraps
       #title.col.s12.center
@@ -14,5 +14,5 @@
       #scrap-list
         - @scraps.each do |scrap|
           #year-some
-            %h2 "#{scrap.title}"
-            %li "#{scrap.body}"
+            %h2 #{scrap.title}
+            %li #{scrap.body}
