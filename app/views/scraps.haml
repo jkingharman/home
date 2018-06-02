@@ -2,12 +2,17 @@
   #scrap-index.col.s1
     #scrap-inner
       %ul
-      - @scraps.each do |scrap|
-        %li scrap
+      -# - @scraps.each do |scrap|
+      -#   %li scrap
   #content.col.s8
     #scraps
       #title.col.s12.center
-        %h1{style: "margin: 20px 0 125px 0;"} Title
+        %h1{style: "margin: 20px 0 50px 0;"} Title
+        %p.page-intro{style: "font-size: 0.85rem; margin: 20px"}
+          Merely some scraps
 
       #scrap-list
-        Some text here
+        - @scraps.each do |scrap|
+          #year-some
+            %h2 "#{scrap.title}"
+            %li "#{scrap.body}"

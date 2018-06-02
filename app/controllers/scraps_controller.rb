@@ -1,7 +1,9 @@
 class ScrapsController < ApplicationController
 
   get "/scraps" do
-    @scraps = ["2018", "2017", "2016"]
+    @title = "Scraps"
+    @scraps = Scrap.order(:created_at)
+
     haml :scraps
   end
 end
