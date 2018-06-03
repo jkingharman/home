@@ -1,10 +1,7 @@
-require "pry"
 class NotesController < ApplicationController
 
   get "/notes" do
-    @title = "Notes"
-    @notes = Note.by_desc_year
-
+    @notes = Note.notes
     haml :notes
   end
 end
