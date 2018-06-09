@@ -1,20 +1,24 @@
 .row
   #notes-nav.col.s1
     #nav-inner
-      %ul
-        -# - @notes.each do |note|
-        -#   %li #{note.date}
 
   #notes-content.col.s8
     #title.col.s12
       %h1.center Words
       %p.center I write rarely but like it. I keep some things from over the years here.
-
-    #notes
-      #note-year
-        -# %h2 #{year}
+    #notes-years
       %ul
-        - @notes.each do |note|
+        - @years.each do |year|
           %li
-            %a{href: ""} #{note.title}
-            %p #{note.content}
+            %a{href: "#" + "#{year}"} #{year}
+    #notes
+      %ul
+        - @years.each do |year|
+          - @notes.select {|n| n.date == year }.each_with_index do |note, i|
+            - if i == 0
+              #note-year
+                %a{name: note.date}
+                %h5 #{note.date}
+            %li
+              %a{href: ""} #{note.title}
+              %p #{truncate(note.content)}
