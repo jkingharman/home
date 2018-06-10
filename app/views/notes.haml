@@ -15,7 +15,8 @@
       %ul
         - @years.each do |year|
           - @notes.select {|n| n.date == year }.each_with_index do |note, i|
-            - if i == 0
+          
+            - if i.zero?
               #note-year
                 %a{name: note.date}
                 %h5 #{note.date}
