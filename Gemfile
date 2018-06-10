@@ -7,6 +7,7 @@ gem "sinatra"
 gem "shotgun"
 gem "haml"
 gem "sass"
+gem "coffee-script"
 
 gem "sprockets"
 gem "yui-compressor"
