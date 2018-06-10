@@ -1,9 +1,12 @@
 .row
-  #note-container.col.s12
-    #title.col.s12
-      %h1.center
-        #{@note.title}
+  #notes-nav.col.s1
+    #nav-inner
 
-    .divider
+  #note-container.col.s10
+    #title.col.s12
+      %h3
+        #{@note.title}
+      .divider
     %p
       #{@note.content}
+      .divider

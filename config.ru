@@ -16,4 +16,5 @@ require_relative "app/app.rb"
 
 use Assets
 use NotesController
+use ReadController
 run ApplicationController
