@@ -24,3 +24,35 @@
               - unless r.excerpt.blank?
                 %br
                 %span #{r.excerpt}
+
+:javascript
+  series = #{@series.to_json}
+
+:coffee
+  $ ->
+    myChart = Highcharts.chart('fruit_container',
+      chart: type: 'column'
+      title: text: 'Fruit Consumption'
+      xAxis: categories: [
+        'Jan'
+        'Feb'
+        'March'
+        'April'
+
+      ]
+      yAxis: title: text: 'Commits'
+      series: [
+        {
+          data: series[0].data
+        }
+        {
+          data: series[1].data
+        }
+        {
+          data: series[2].data
+        }
+        {
+          data: series[3].data
+        }
+      ])
+    return

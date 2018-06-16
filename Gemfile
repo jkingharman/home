@@ -8,6 +8,7 @@ gem "shotgun"
 gem "haml"
 gem "sass"
 gem "coffee-script"
+gem "nokogiri"
 
 gem "sprockets"
 gem "yui-compressor"

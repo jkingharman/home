@@ -1,28 +1,30 @@
 $ ->
   myChart = Highcharts.chart('fruit_container',
-    chart: type: 'bar'
+    chart: type: 'column'
     title: text: 'Fruit Consumption'
     xAxis: categories: [
-      'Apples'
-      'Bananas'
-      'Oranges'
+      'Jan'
+      'Feb'
+      'March'
+      'April'
+
     ]
-    yAxis: title: text: 'Fruit eaten'
+    yAxis: title: text: 'Commits'
     series: [
       {
-        name: 'Jane'
         data: [
-          1
-          0
-          4
+          2
+          3
+          3
+          5
         ]
       }
       {
-        name: 'John'
         data: [
-          5
-          7
+          2
           3
+          4
+          5
         ]
       }
     ])
