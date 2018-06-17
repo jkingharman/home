@@ -4,7 +4,6 @@ class ReadController < ApplicationController
 
   get "/read" do
     cs = ChartService.new
-    cs.get_series
     @series = cs.series
     @reads = Read.all
     @years = Read.years
