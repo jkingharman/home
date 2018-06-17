@@ -13,7 +13,7 @@ class GitCommitService
   end
 
   def commits_each_day
-    commits.map {|commit| commit.attribute("data-count").value }
+    commits.map {|commit| commit.attribute("data-count").value.to_i }
   end
 
   private
