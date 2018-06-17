@@ -2,30 +2,34 @@ require 'nokogiri'
 require 'restclient'
 require 'date'
 require 'pry'
+require_relative "git_commit_formatter"
 
 class GitCommitService
   CONTRIBUTIONS_URL = "https://github.com/users/jkingharman/contributions"
 
-  def initialize(parser: Nokogiri, days: 182)
+  def initialize(parser: Nokogiri, months_ago: 6)
     page = get_page(parser)
-    @date = date_days_ago(days)
+    date = date_months_ago(months_ago)
     @commits = daily_commits_from(page, date)
+    # @final = GitCommitFormatter.new(@commits).structure_commits
   end
 
-  def commits_each_day
-    commits.map {|commit| commit.attribute("data-count").value.to_i }
+  def call
+
   end
 
   private
 
-  attr_reader :commits, :date
+  attr_reader :commits
 
   def get_page(parser)
     parser::HTML(RestClient.get(CONTRIBUTIONS_URL))
   end
 
-  def date_days_ago(days)
-    (Date.today - days).to_s
+  def date_months_ago(months)
+    date = Date.today
+    months.times { date = date.prev_month }
+    date.to_s
   end
 
   def daily_commits_from(page, date)
@@ -34,3 +38,5 @@ class GitCommitService
     commits.css("rect")[date_pos..-1]
   end
 end
+
+binding.pry
