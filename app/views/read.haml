@@ -3,7 +3,6 @@
     #read-inner
 
   #reads-content.col.s8
-    #fruit_container
     #title.col.s12
       %h1.center Reads
       %p.center
@@ -24,20 +23,3 @@
               - unless r.excerpt.blank?
                 %br
                 %span #{r.excerpt}
-
-:javascript
-  series = #{[{data: @series}].to_json}
-  year = #{@date.first}
-  month = #{@date[1]}
-  day = #{@date.last}
-  
-:coffee
-  $ ->
-    myChart = Highcharts.chart('fruit_container',
-      chart: type: 'column'
-      plotOptions: series: pointStart: Date.UTC(year, month, day) , pointIntervalUnit: 'day'
-      xAxis: type: 'datetime'
-      yAxis: title: text: 'Commits'
-      series: series
-      )
-    return

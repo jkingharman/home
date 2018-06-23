@@ -1,6 +1,3 @@
-require_relative "../services/commit_finder"
-require "pry"
-
 class ReadController < ApplicationController
 
   get "/read" do
