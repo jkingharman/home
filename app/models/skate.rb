@@ -1,6 +1,14 @@
 class Skate < Sinatra::Base
   set :root, File.expand_path("../../..", __FILE__)
-  SK8_PATH = "#{settings.root}/skate/skate.md"
+  SK8_PATH = "#{settings.root}/skate/skate.md".freeze
+  STRUCT_PROPERTIES = [
+    "type",
+    "url",
+    "date",
+    "height",
+    "width",
+    "comment"
+  ]
 
   def self.build_structs
     sk8_items = read_sk8_items
@@ -17,10 +25,9 @@ class Skate < Sinatra::Base
   def self.build_struct(sk8_item)
     sk8_struct = OpenStruct.new
 
-    sk8_struct.type = sk8_item.first
-    sk8_struct.url = sk8_item[1]
-    sk8_struct.date = sk8_item[2]
-    sk8_struct.comment = sk8_item[3]
+    STRUCT_PROPERTIES.each_with_index do |property, i|
+      sk8_struct[property] = sk8_item[i]
+    end
     sk8_struct
   end
 end

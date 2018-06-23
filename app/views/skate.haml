@@ -12,13 +12,6 @@
         - @skate.each do |sk8|
           %li
             - if sk8.type == "video"
-              %iframe{allow: "autoplay; encrypted-media", allowfullscreen: "", frameborder: "0", height: "252", src: sk8.url, width: "448"}
+              %iframe{allow: "autoplay; encrypted-media", allowfullscreen: "", frameborder: "0", height: sk8.height, src: sk8.url, width: sk8.width}
             - else
-              %img{src: "" }
-            -# - if i.zero?
-            -#   #note-year
-            -#     %a{name: note.date}
-            -#     %h5 #{note.date}
-            -# %li
-            -#   %a{href: ""} #{note.title}
-            -#   %p #{truncate(note.content)}
+              %img{src:"#{sk8.url}", width: sk8.width, height: sk8.height }
