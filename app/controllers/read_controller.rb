@@ -1,14 +1,15 @@
 require_relative "git_commit_service"
-require_relative "month_names"
+require "pry"
 
 class ReadController < ApplicationController
 
   get "/read" do
-    chart_service = ChartService.new
-    @month_names = ChartService.
-    @series = ChartService.series
+    git_service = GitCommitService.new
+
     @reads = Read.all
     @years = Read.years
+    @date = git_service.first_commit_date
+    @series = git_service.daily_commit_totals
     haml :read
   end
 end

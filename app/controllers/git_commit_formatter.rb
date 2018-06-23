@@ -1,19 +1,18 @@
+require "date"
 class GitCommitFormatter
   def initialize(commits)
     @commits = commits
   end
 
-  def structure_commits
-    hash = commits.map do |commit|
-      commit_month = Date.parse(commit.attribute("data-date").value).month
-      [commit_month, []]
-    end.to_h
+  def daily_commit_totals
+    commits.map {|commit| commit.attribute("data-count").value.to_i }
+  end
 
-    commits.map do |commit|
-      commit_month = Date.parse(commit.attribute("data-date").value).month
-      hash["commit_month"] << Date.parse(commit.attribute("data-count").value)
-    end
-    hash
+  def first_commit_date
+    first_commit = commits.first
+    commit_date = Date.parse(first_commit.attribute("data-date").value)
+
+    [commit_date.year, (commit_date.month - 1), commit_date.day] # JS Date.UTC expects months from 0 to 11
   end
 
   private

@@ -26,19 +26,18 @@
                 %span #{r.excerpt}
 
 :javascript
-  series = #{@series.to_json}
-
+  series = #{[{data: @series}].to_json}
+  year = #{@date.first}
+  month = #{@date[1]}
+  day = #{@date.last}
+  
 :coffee
   $ ->
     myChart = Highcharts.chart('fruit_container',
       chart: type: 'column'
-      xAxis: categories: [
-
-      ]
+      plotOptions: series: pointStart: Date.UTC(year, month, day) , pointIntervalUnit: 'day'
+      xAxis: type: 'datetime'
       yAxis: title: text: 'Commits'
-      series: [
-        {
-          data: series[0].data
-        }
-      ])
+      series: series
+      )
     return

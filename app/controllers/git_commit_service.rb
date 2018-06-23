@@ -1,7 +1,6 @@
 require 'nokogiri'
 require 'restclient'
 require 'date'
-require 'pry'
 require_relative "git_commit_formatter"
 
 class GitCommitService
@@ -10,17 +9,22 @@ class GitCommitService
   def initialize(parser: Nokogiri, months_ago: 6)
     page = get_page(parser)
     date = date_months_ago(months_ago)
-    @commits = daily_commits_from(page, date)
-    # @final = GitCommitFormatter.new(@commits).structure_commits
+    commits = daily_commits_from(page, date)
+
+    @formatter = GitCommitFormatter.new(commits)
   end
 
-  def call
+  def daily_commit_totals
+    formatter.daily_commit_totals
+  end
 
+  def first_commit_date
+    formatter.first_commit_date
   end
 
   private
 
-  attr_reader :commits
+  attr_reader :formatter
 
   def get_page(parser)
     parser::HTML(RestClient.get(CONTRIBUTIONS_URL))
@@ -38,5 +42,3 @@ class GitCommitService
     commits.css("rect")[date_pos..-1]
   end
 end
-
-binding.pry
