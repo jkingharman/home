@@ -1,9 +1,9 @@
 require 'nokogiri'
 require 'restclient'
 require 'date'
-require_relative "git_commit_formatter"
+require_relative "commit_formatter"
 
-class GitCommitService
+class CommitFinder
   CONTRIBUTIONS_URL = "https://github.com/users/jkingharman/contributions"
 
   def initialize(parser: Nokogiri, months_ago: 6)
@@ -11,7 +11,7 @@ class GitCommitService
     date = date_months_ago(months_ago)
     commits = daily_commits_from(page, date)
 
-    @formatter = GitCommitFormatter.new(commits)
+    @formatter = CommitFormatter.new(commits)
   end
 
   def daily_commit_totals

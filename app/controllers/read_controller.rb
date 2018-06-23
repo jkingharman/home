@@ -1,10 +1,10 @@
-require_relative "git_commit_service"
+require_relative "../services/commit_finder"
 require "pry"
 
 class ReadController < ApplicationController
 
   get "/read" do
-    git_service = GitCommitService.new
+    git_service = CommitFinder.new
 
     @reads = Read.all
     @years = Read.years

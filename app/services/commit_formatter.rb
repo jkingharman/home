@@ -1,5 +1,5 @@
 require "date"
-class GitCommitFormatter
+class CommitFormatter
   def initialize(commits)
     @commits = commits
   end
