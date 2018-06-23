@@ -1,0 +1,24 @@
+.row
+  #skate-nav.col.s1
+    #nav-inner
+
+  #skate-content.col.s8
+    #title.col.s12
+      %h1.center Skate
+      %p.center Skating.
+
+    #skate
+      %ul
+        - @skate.each do |sk8|
+          %li
+            - if sk8.type == "video"
+              %iframe{allow: "autoplay; encrypted-media", allowfullscreen: "", frameborder: "0", height: "252", src: sk8.url, width: "448"}
+            - else
+              %img{src: "" }
+            -# - if i.zero?
+            -#   #note-year
+            -#     %a{name: note.date}
+            -#     %h5 #{note.date}
+            -# %li
+            -#   %a{href: ""} #{note.title}
+            -#   %p #{truncate(note.content)}

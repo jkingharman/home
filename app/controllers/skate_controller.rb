@@ -2,6 +2,7 @@
 class SkateController < ApplicationController
 
   get "/skate" do
-    Skate.build_structs
+    @skate = Skate.build_structs
+    haml :skate
   end
 end
