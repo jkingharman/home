@@ -18,4 +18,5 @@ use Assets
 use NotesController
 use ReadController
 use CodeController
+use SkateController
 run ApplicationController
