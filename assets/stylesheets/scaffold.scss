@@ -26,6 +26,7 @@
 
     li > a {
       color: #0822e1;
+      padding-left: 0px;
       font-size: 13px;
       text-decoration: underline;
       font-weight: 400;
@@ -35,31 +36,6 @@
       text-decoration: none;
       background-color: transparent;
     }
-  }
-
-  .sidenav.sidenav-fixed {
-    min-width: 100px;
-    width: 100px;
-    margin-left: 40px;
-    margin-right: 10px;
-    margin-top: 150px;
-  }
-
-  .sidenav ul > li {
-    padding: 0.5rem;
-    height: 40px;
-  }
-
-  .sidenav li > a {
-    color: black;
-    font-size: 13px;
-    text-decoration: underline;
-    font-weight: 400;
-  }
-
-  .sidenav li > a:hover {
-    text-decoration: none;
-    background-color: transparent;
   }
 
   #footer-nav {
