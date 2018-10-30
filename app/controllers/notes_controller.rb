@@ -12,10 +12,4 @@ class NotesController < ApplicationController
     @note = Note.build_note(slug)
     haml :note
   end
-
-  get "/notes" do
-    @notes = Note.build_notes
-    @years = @notes.map(&:date).uniq
-    haml :notes
-  end
 end
