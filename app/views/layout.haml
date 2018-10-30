@@ -18,4 +18,4 @@
         .container
           = haml :_nav_sidebar unless request.path_info == "/"
           = yield
-      = haml :_nav_footer unless request.path_info == "/"
+          = haml :_nav_footer

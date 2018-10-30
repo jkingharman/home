@@ -25,7 +25,7 @@
     background-color: transparent;
 
     li > a {
-      color: black;
+      color: #0822e1;
       font-size: 13px;
       text-decoration: underline;
       font-weight: 400;
@@ -67,6 +67,11 @@
   }
 
   .page-footer {
+    padding: 0px;
     background-color: transparent;
   }
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px;
 }

@@ -1,7 +1,6 @@
 
 require_relative "../helpers/note_helpers" # extract
 require './config/environments'
-require 'time'
 
 class ApplicationController < Sinatra::Base
   helpers Helpers::Note
