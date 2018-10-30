@@ -4,6 +4,8 @@ require_relative "controllers/read_controller"
 require_relative "controllers/code_controller"
 require_relative "controllers/skate_controller"
 
+require_relative "helpers/note_helpers"
+
 require_relative "models/note"
 require_relative "models/read"
 require_relative "models/skate"

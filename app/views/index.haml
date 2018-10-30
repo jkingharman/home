@@ -8,7 +8,7 @@
 
     #notes
       %ul
-        - @notes.each do |note|
+        - asc_order(@notes).each do |note|
           %li
             %span #{note.date}
             %a{href: ""} #{note.title}
