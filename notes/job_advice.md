@@ -1,5 +1,5 @@
 title: Job Advice
-date: 2017
+date: 04-01-2016
 
 
 Call me a puritan, but, decisions about work matter. According to growing evidence, work is a major factor of well-being. For many, it's also the main source of meaning in life. And we've long known that early decisions here are important since they tend to compound.   Little of this research is surprising. It does, however, raise an interesting question. It's that if jobs are so clearly important, why is career advice so bad?

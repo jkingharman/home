@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 # App Stack
 gem "foreman"
-gem "heroku"
+gem "rest-client"
 gem "sinatra"
 gem "shotgun"
 gem "haml"

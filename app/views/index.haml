@@ -1,19 +1,16 @@
 .row
-  #index-about.col.s12.m8.l4
-    %h4.black-text
-      About
-    %p.black-text Usually skating or coding somewhere in London.
+  #index.col.s8.offset-s2
+    %h6.black-text
+      jkh
+    %p.black-text skater, developer
 
     .divider
 
-    %ul
-      %li
-        %a{href: "/notes"} Notes
-      %li
-        %a{href: "/read"} Read
-      %li
-        %a{href: "/skate"} Skate
-      %li
-        %a{href: "/code"} Code
-      %li
-        %a{href: "/misc"} Misc.
+    #notes
+      %ul
+        - @notes.each do |note|
+          %li
+            %span #{note.date}
+            %a{href: ""} #{note.title}
+
+    .divider

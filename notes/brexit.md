@@ -1,5 +1,5 @@
-title: Brexit
-date: 2018
+title: Brexit and chesterton
+date: 05-10-2016
 
 
 Like many, I have been struck by Brexit's ugliness. Both sides stained UK politics. Both pulled dirty levers  scaremongering and torturing statistics  in the name of winning. Leave's 350-million message was bull, Remain's claim of economic end-times hardly better. Plausibly, both sides have moved us towards a post-factual politics.

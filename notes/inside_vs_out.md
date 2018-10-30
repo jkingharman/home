@@ -1,5 +1,5 @@
 title: Inside vs. out
-date: 2018
+date: 18-06-2016
 
 
  One idea living close to the top of my mind is the distinction between inside and outside forecasting.
