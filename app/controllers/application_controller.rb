@@ -1,6 +1,5 @@
 
 require_relative "../helpers/note_helpers" # extract
-require './config/environments'
 
 class ApplicationController < Sinatra::Base
   helpers Helpers::Note
