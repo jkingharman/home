@@ -10,4 +10,8 @@ class ApplicationController < Sinatra::Base
     @notes = Note.build_notes
     haml :index
   end
+
+  get "/about" do
+    haml :about
+  end
 end
