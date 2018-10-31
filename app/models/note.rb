@@ -1,4 +1,5 @@
 class Note < Sinatra::Base
+  # helpers Helpers::Markdown
   set :root, File.expand_path("../../..", __FILE__)
 
   def self.build_note(slug)
@@ -20,7 +21,7 @@ class Note < Sinatra::Base
   def self.build_struct(file)
     meta, content = File.read(file).split("\n\n", 2)
     note = OpenStruct.new YAML.load(meta)
-    note.content = content
+    note.content = Kramdown::Document.new(content).to_html
     note.slug = File.basename(file, ".md")
     note
   end

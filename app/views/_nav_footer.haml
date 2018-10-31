@@ -8,7 +8,7 @@
           %li
             %a{href: "https://www.linkedin.com/in/jasperkingharman/"} LinkedIn
           %li
-            - if request.path == "/about"
-              %a{href: "/"} Home
-            - else
+            - if request.path == "/"
               %a{href: "/about"} About
+            - else
+              %a{href: "/"} Home

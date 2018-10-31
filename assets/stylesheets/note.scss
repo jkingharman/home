@@ -1,5 +1,18 @@
-#notes {
-  li > span {
+#note {
+  padding-top: 50px;
+  min-width: 300px;
+
+  p {
     color: #333;
   }
+
+  h6 {
+    font-weight: 700;
+  }
+
+  a {
+    font-size: 10px;
+    color: #333;
+  }
+
 }
