@@ -11,6 +11,6 @@
         - asc_order(@notes).each do |note|
           %li
             %span #{note.date}
-            %a{href: ""} #{note.title}
+            %a{href: "notes/#{note.slug}"} #{note.title}
 
     .divider
