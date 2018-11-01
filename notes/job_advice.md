@@ -38,7 +38,9 @@ Possibly. But I'd think twice here. Studies show many non-profits have [derisory
 Arguably, you're not. Likely, in fact, you're better off in other sectors -- even consulting or finance, surprisingly. For-profit jobs like these are skills and capital gold dust. If you can stomach them they allow you to build such goods fast, which sets you up to aid a cause more effectively later on. [Better non-profits](https://80000hours.org/2015/09/what-do-leaders-of-effective-non-profits-say-about-working-in-non-profits-interviews-with-givedirectly-deworm-the-world-initiative-development-media-international-schistosomiasis-control-initiativ/) know this: it's partly why they often advise smart and driven grads to *avoid* working in their sectors right out the gate. 
 
 
-*******
+
+                                       ~~
+
 
 
 In saying all this, I'm not picking holes idly. The extent of bad career advice is a real puzzle to me. 
