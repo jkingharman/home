@@ -1,19 +1,20 @@
 source "http://rubygems.org"
 
+ruby "2.5.1"
+
 # App Stack
 gem "foreman"
 gem "rest-client"
 gem "sinatra"
-gem "shotgun"
+gem "sinatra-router"
 gem "haml"
 gem "sass"
-gem "kramdown"
+gem "kramdown" # for markdown processing
 
+# for asset pipeline functionality
 gem "sprockets"
 gem "yui-compressor"
+gem "uglifier"
 
-gem "activerecord"
-gem "sinatra-activerecord"
-gem "rake"
-
+gem "shotgun"
 gem "pry"

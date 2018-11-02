@@ -18,6 +18,8 @@ class Note < Sinatra::Base
     notes
   end
 
+  private
+
   def self.build_struct(file)
     meta, content = File.read(file).split("\n\n", 2)
     note = OpenStruct.new YAML.load(meta)
