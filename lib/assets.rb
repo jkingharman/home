@@ -10,8 +10,8 @@ class Assets < Sinatra::Base
 
 
       if ENV["RACK_ENV"] == "production"
-        env.js_compressor  = YUI::JavaScriptCompressor.new
-        env.css_compressor = YUI::CssCompressor.new
+        env.js_compressor  = :uglify
+        env.css_compressor = :scss
       end
     })
   end

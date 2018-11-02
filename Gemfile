@@ -13,7 +13,6 @@ gem "kramdown" # For markdown processing
 
 # For asset pipeline functionality
 gem "sprockets"
-gem "yui-compressor"
 gem "uglifier"
 
 group :development do
