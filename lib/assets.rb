@@ -1,4 +1,6 @@
 class Assets < Sinatra::Base
+  # A class to replicate Rail's asset pipeline functionality.
+  # Credit to Brandur: https://mutelight.org/asset-pipeline
   configure do
     set :assets, (Sprockets::Environment.new { |env|
       path = File.expand_path("../../", __FILE__)

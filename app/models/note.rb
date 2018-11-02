@@ -1,5 +1,4 @@
 class Note < Sinatra::Base
-  # helpers Helpers::Markdown
   set :root, File.expand_path("../../..", __FILE__)
 
   def self.build_note(slug)

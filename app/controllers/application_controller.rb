@@ -1,6 +1,5 @@
 
-require_relative "../helpers/note_helpers" # extract
-require_relative "../helpers/markdown_helpers"
+require_relative "../helpers/note_helpers"
 
 class ApplicationController < Sinatra::Base
   helpers Helpers::Note

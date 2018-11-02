@@ -9,12 +9,14 @@ gem "sinatra"
 gem "sinatra-router"
 gem "haml"
 gem "sass"
-gem "kramdown" # for markdown processing
+gem "kramdown" # For markdown processing
 
-# for asset pipeline functionality
+# For asset pipeline functionality
 gem "sprockets"
 gem "yui-compressor"
 gem "uglifier"
 
-gem "shotgun"
-gem "pry"
+group :development do
+  gem "shotgun"
+  gem "pry"
+end

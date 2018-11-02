@@ -1,4 +1,4 @@
-require 'time' # remove if needed
+require 'time'
 
 module Helpers
   module Note
