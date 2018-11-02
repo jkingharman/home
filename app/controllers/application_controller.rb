@@ -1,4 +1,3 @@
-
 require_relative "../helpers/note_helpers"
 
 class ApplicationController < Sinatra::Base

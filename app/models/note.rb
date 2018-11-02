@@ -1,3 +1,5 @@
+require 'kramdown'
+
 class Note < Sinatra::Base
   set :root, File.expand_path("../../..", __FILE__)
 
@@ -19,10 +21,11 @@ class Note < Sinatra::Base
 
   private
 
+  # Creates a struct from a note in the notes dir
   def self.build_struct(file)
     meta, content = File.read(file).split("\n\n", 2)
     note = OpenStruct.new YAML.load(meta)
-    note.content = Kramdown::Document.new(content).to_html
+    note.content = Kramdown::Document.new(content).to_html # for rendering md
     note.slug = File.basename(file, ".md")
     note
   end
