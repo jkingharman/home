@@ -27,10 +27,10 @@ Often, when you consult a reference class you see your odds are low -- so low, i
 
 For me, the inside-outside distinction therefore teaches an important lesson, one which perhaps explains its place in my mind. It's that human rationality has [sharp limits](https://en.wikiquote.org/wiki/Bounded_rationality). And that as an ideal rationality demands so (too?) much.
 
-> **1.** *Mostly, but not wholly. Personal facts should inform the prediction, though only for fine-tuning purposes. > These facts are reasons to tweak your prediction either way from a base-rate (as described in depth [here](https://www.edge.org/conversation/philip_tetlock-a-short-course-in-superforecasting)).*
+> **1.** *Mostly, but not wholly. Personal facts should inform the prediction, though only for fine-tuning purposes. These facts are reasons to tweak your prediction either way from a base-rate (as described in depth [here](https://www.edge.org/conversation/philip_tetlock-a-short-course-in-superforecasting)).*
 
 > **2.** *Is this necessarily a bad thing? Behaviour that is irrational for the individual can be desirable collectively. We all benefit from living in a society where people chase costly dreams despite a negligible chance of success. As Richard Nisbett [pointed out](https://www.hofstralawreview.org/wp-content/uploads/2014/05/54_9HofstraLRev16211980-1981.pdf):*
 
 > *"We probably would have few novelists, actors or scientists if all potential aspirants to these careers took action based on a normatively justifiable probability of success. We might also have few new products, new medical procedures, new political movements or new scientific theories."*
 
-> *The could have added that London or New York or Los Angeles would be barren in hours. Irrationality makes the world go 'round.*
+> *They could have added that London or New York or Los Angeles would be barren in hours. Irrationality makes the world go 'round.*
