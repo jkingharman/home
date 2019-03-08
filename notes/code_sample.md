@@ -1,3 +1,5 @@
+title: Code sample
+date: 3-03-2019
 
 # Code Sample
 
