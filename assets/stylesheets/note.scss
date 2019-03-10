@@ -1,6 +1,6 @@
 #note {
   padding-top: 50px;
-  span {
+  span.subhead {
     font-size: 10px;
     color: #999;
   }
@@ -9,4 +9,23 @@
     color: #424241;
     line-height: 18px;
   }
+}
+
+pre {
+    background: #f6f6f6;
+    font-family: Monaco, "Lucida Console", "Bitstream Vera Sans Mono", Courier, monospace;
+    font-size: 0.75rem;
+    line-height: 1.4em;
+    padding: 15px;
+}
+
+.language-ruby {
+      background: #f6f6f6;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    /* background: #fdf6e3; */
+    color: #657b83;
 }

@@ -25,7 +25,9 @@ class Note < Sinatra::Base
   def self.build_struct(file)
     meta, content = File.read(file).split("\n\n", 2)
     note = OpenStruct.new YAML.safe_load(meta)
-    note.content = Kramdown::Document.new(content).to_html # for rendering md
+    note.content = Kramdown::Document.new(
+      content
+    ).to_html # for rendering md
     note.slug = File.basename(file, '.md')
     note
   end
