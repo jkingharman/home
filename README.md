@@ -1,6 +1,6 @@
 # Home #
 
-My personal site. It's basically just a little blogging engine built on Sinatra.
+My personal blog. It's basically just a little blogging engine built on Sinatra.
 
 ## Why? ##
 
