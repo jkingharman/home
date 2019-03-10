@@ -8,8 +8,9 @@
     #notes
       %ul
         - asc_order(@notes).each do |note|
-          %li
-            %span #{note.date}
-            %a{href: "notes/#{note.slug}"} #{note.title}
+          - unless note.slug == "code_sample"
+            %li
+              %span #{note.date}
+              %a{href: "notes/#{note.slug}"} #{note.title}
 
     .divider
