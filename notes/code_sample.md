@@ -208,12 +208,25 @@ I avoid nested loops, so time complexity stays low. But my code can be memory in
 <span class="subhead"> log_formatter.rb </span>
 {::options parse_block_html="true" /}
 
-I separate code that formats ``@webpages`` from code that presents it. My presenter class pretty prints the return values of ``LogFormatter``'s public methods.
+I separate code that formats ``@webpages`` from code that presents it. My presenter class pretty prints the return values of ``LogFormatter``'s public methods. You'll notice ``LogFormatter`` has duplication. We could abstract:
+
+~~~ruby
+...
+def sort_by_views(web_pages, uniq: false)
+  web_pages.sort_by do |_page, visits|
+    uniq ? visits.uniq.length : visits.length
+  end.reverse.to_h
+end
+...
+~~~
+{: .hljs}
+
+I follow DRY but also prefer duplication over the wrong abstraction. In this case, I sided with more concrete code because more readable.
 
 <span class="subhead"> log_parser_spec.rb </span>
 {::options parse_block_html="true" /}
 
-I try to write cost-effective tests. Mostly, that means testing only a class's public interface. Tests that break with an underlying refactoring raise costs and establishes nothing
+I try to write cost-effective tests. Mostly, that means testing only a class's public interface. Tests that break with an underlying refactoring raise costs and establish nothing
 about the program's overall correctness.
 
 ``log_parser_spec.rb`` tests that ``#parse`` returns the correct state when given a valid path, an error when given an invalid one. I don't test internals.
