@@ -1,4 +1,4 @@
-title: Intuition as recognition
+title: intuition as recognition
 date: 27-04-2016
 
 Here's a [story](https://books.google.co.uk/books?id=za4HAAAAQBAJ&pg=PA160&lpg=PA160&dq=fire+commander+story%2Bintuition&source=bl&ots=4lC0MC40R8&sig=X0JCRUg1L39M35t1Lxhbj6AlqxI&hl=en&sa=X&ved=0ahUKEwiCi7Ky7rbOAhUlLMAKHZm1BqwQ6AEIMTAB#v=onepage&q=fire%20commander%20story%2Bintuition&f=false).

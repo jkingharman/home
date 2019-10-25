@@ -1,4 +1,4 @@
-title: Satisficer
+title: satisficer
 date: 15-03-2016
 
 In [Obliquity](https://www.amazon.co.uk/Obliquity-goals-best-achieved-indirectly/dp/1846682894), John Kay recounts the fall of [ICI](https://en.wikipedia.org/wiki/Imperial_Chemical_Industries). ICI was once a top company, but flatlined in 2008. Kay claims this was through changing goals. The company's main goal was long "[responsible use of chemistry](https://www.johnkay.com/2007/09/04/chain-reaction-that-burned-out-ici/)". But in the 90s profit-maximisation took its place. And then came decline. The moral? Sometimes goals are best chased indirectly. ICI did well when profit was an indirect goal, but not when a direct one.

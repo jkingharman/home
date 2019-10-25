@@ -1,4 +1,4 @@
-title: Easier done than said
+title: easier done than said
 date: 08-02-2017
 
 "Yo! Fellah. Straight up: *how did you do that trick*?"
