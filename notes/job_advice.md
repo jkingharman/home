@@ -1,4 +1,4 @@
-title: Work advice
+title: work advice
 date: 04-01-2016
 
 Call me a puritan but, decisions about work matter. According to growing evidence, work is a major factor of [well-being](https://www.jstor.org/stable/2234639?seq=1#page_scan_tab_contents). For many it's also the main source of [meaning](https://aeon.co/essays/what-is-better-a-happy-life-or-a-meaningful-one) in life. And we've long known that early decisions here are important since they tend to compound.

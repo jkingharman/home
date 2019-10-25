@@ -1,4 +1,4 @@
-title: Human error
+title: human error
 date: 17-11-2016
 
 "Nobody knows anything" -- so said William Goldman, the [screenwriter](https://www.amazon.com/exec/obidos/ASIN/0446391174/thebigpictu09-20) and [novelist](https://en.wikipedia.org/wiki/William_Goldman).

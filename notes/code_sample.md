@@ -1,4 +1,4 @@
-title: Code Sample
+title: code Sample
 date: 05-03-2019
 
 The code you'll see here samples from a Ruby script that was written and tested in two hours.

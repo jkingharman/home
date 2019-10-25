@@ -1,4 +1,4 @@
-title: Brexit and chesterton
+title: brexit and chesterton
 date: 05-10-2016
 
 Like many, I've been struck by Brexit's ugliness. Both sides stained UK politics. Both pulled dirty levers -- scaremongering and torturing statistics -- in the name of winning. Leave's 350-million message was [bull](https://blogs.spectator.co.uk/2016/04/watch-vote-leaves-dom-cummings-is-grilled-by-andrew-tyrie-this-sounds-like-aladdins-cave-to-me/), Remain's claim of [economic end-times](https://www.bbc.co.uk/news/business-36068892) hardly better. Plausibly, both sides have moved us towards a [post-factual politics](https://en.wikipedia.org/wiki/Post-truth_politics).

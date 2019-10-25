@@ -1,4 +1,4 @@
-title: Pyrrhic politics
+title: pyrrhic politics
 date: 22-08-2016
 
 If politics is the art of compromise then current political debate should unsettle you.
