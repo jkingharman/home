@@ -10,9 +10,9 @@ One reason is just bad PR. SQL is old and evokes images of dusty DBAs ensconced 
 Ignore this weirdness. SQL is a small language. Handful of verbs really. It’s also a language that rewards thinking in pictures: you grasp the language better if you visualise how it acts. Which there is a trick to, at least for the basics. *It’s to colour your tables*.
 
 Random example:
-
+<img src="../assets/authors.png">
 Colour mapping clauses to tables reveals clause concepts. To show we read from the Author, we map the FROM clause to the table. To show we filter rows on age, we map the WHERE clause to result rows. To show we select names, we map the SELECT to data.
 
-This is a fun way to build SQL intuition. But only at first. Once you know some SQL the colours become sensory noise -- I want to understand queries, not practically taste them -- and I’m unsure how colourised SQL would work for more advanced queries like JOINS, etc.
+This is a fun way to build SQL intuition. But only at first. Once you know some SQL the colours become sensory noise -- I want to understand queries, not practically taste them -- and I’m unsure how colourised SQL would work for more advanced stuff like JOINS, etc.
 
 Still, a useful learning hack for beginners.
