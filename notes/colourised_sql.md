@@ -5,9 +5,9 @@ Databases are the heart of modern web apps. Sensible developers see the web as v
 
 Most of these databases speak SQL, which makes SQL handy to know. And yet many junior developers don’t. How come?
 
-One reason is bad PR. SQL is old and, for some, evokes images of dusty DBAs ensconced in megacorps. Another reason though is that SQL seems *weird*. Or at least it seems weird if all you know is Ruby.
+One reason is just: bad PR. SQL is old and, for some, evokes images of dusty DBAs ensconced in megacorps. Another reason though is that SQL seems *weird*. Or at least it seems so if all you know is Ruby.
 
-Ignore this weirdness. SQL is a small language. Handful of verbs really. It’s also a language that rewards thinking in pictures: you grasp the language better if you visualise how it acts. Which there is a trick to, at least for the very basics. It’s to colour in your tables.
+Ignore this weirdness. SQL is a small language. Handful of verbs really. It’s also a language that rewards thinking in pictures: you grasp the language better if you visualise how it acts. Which there is a trick to, at least for the very basics. *It’s to colour in your tables*.
 
 Here’s an example:
 
