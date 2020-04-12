@@ -8,7 +8,8 @@ class NotesController < ApplicationController
 
   get "/notes/\*" do
     slug = request.path_info.gsub('/notes/', '')
-    @note = Note.build_note(slug)
+    @note = Note.build(slug).first
+    
     haml :note
   end
 

@@ -10,7 +10,8 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-    @notes = Note.build_notes
+    @notes = Note.build
+    
     haml :index
   end
 
