@@ -5,6 +5,10 @@ class ApplicationController < Sinatra::Base
   # set folder for templates to ../views, but make the path absolute
   set :views, File.expand_path('../../views', __FILE__)
 
+  not_found do
+    redirect "/"
+  end
+
   get '/' do
     @notes = Note.build_notes
     haml :index
