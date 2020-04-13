@@ -1,7 +1,8 @@
-require_relative '../helpers/note_helpers'
+require_relative '../helpers/sort_helpers'
+require_relative '../helpers/paginate_helpers'
 
 class ApplicationController < Sinatra::Base
-  helpers Helpers::Note
+  helpers Helpers::Sort, Helpers::Paginate
   # set folder for templates to ../views, but make the path absolute
   set :views, File.expand_path('../../views', __FILE__)
 

@@ -3,10 +3,17 @@
     .col.s12.m8.offset-m2
       %nav.z-depth-0.center
         %ul
+          - unless request.path == "/about"
+            %li
+              %a{href: "/about"} about
+
           %li
             %a{href: "https://github.com/jkingharman"} github
-          %li
-            - if request.path == "/"
-              %a{href: "/about"} about
-            - else
+
+          - unless request.path == "/"
+            %li
               %a{href: "/"} home
+
+          - unless request.path == "/fragments"
+            %li
+              %a{href: "/fragments"} fragments

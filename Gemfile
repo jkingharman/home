@@ -9,7 +9,6 @@ gem 'kramdown' # markdown processing
 gem 'kramdown-syntax-coderay'
 gem 'rouge' # syntax highlighting
 gem 'rest-client'
-gem 'kaminari'
 gem 'sass'
 gem 'sinatra'
 gem 'sinatra-router'

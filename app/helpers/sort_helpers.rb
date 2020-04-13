@@ -1,7 +1,7 @@
 require 'time'
 
 module Helpers
-  module Note
+  module Sort
     def asc_order(notes)
       notes.sort { |x, y| Date.parse(x.date) <=> Date.parse(y.date) }.reverse
     end
