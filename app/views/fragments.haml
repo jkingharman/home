@@ -1,0 +1,11 @@
+- asc_order(@notes).each do |note|
+
+  .row.no-margin-bottom
+    #note.content.col.s12.m8.offset-m2
+      %h6.black-text
+        #{note.title}
+      %span.subhead posted: #{note.date}
+      %p
+        #{note.content}
+
+      .divider

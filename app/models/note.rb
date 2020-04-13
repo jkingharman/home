@@ -1,11 +1,9 @@
-require 'kramdown'
-
 class Note < Sinatra::Base
   set :root, File.expand_path('../../..', __FILE__)
 
   def self.build(slug = nil)
     notes = []
-    path = "#{settings.root}" + "/notes/" + "#{slug ? slug : '*'}" + ".md"
+    path = "#{settings.root}" + "/md/notes/" + "#{slug ? slug : '*'}" + ".md"
     Dir.glob(path) {|file| notes << build_struct(file) }
     notes
   end

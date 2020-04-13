@@ -15,4 +15,5 @@ require_relative 'app/app.rb'
 
 use Assets
 use NotesController
+use FragmentsController
 run ApplicationController
