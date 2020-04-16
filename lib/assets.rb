@@ -1,3 +1,4 @@
+require "pry"
 class Assets < Sinatra::Base
   # A class to replicate Rail's asset pipeline functionality.
   # Credit to Brandur: https://mutelight.org/asset-pipeline
@@ -25,10 +26,31 @@ class Assets < Sinatra::Base
     settings.assets['app.css']
   end
 
-  %w[jpg png].each do |format|
+  VALID_IMAGE_TYPES = %w[jpg png]
+
+  VALID_IMAGE_TYPES.each do |format|
+    # TODO: remove top level folder
     get "/assets/:image.#{format}" do |image|
       content_type("image/#{format}")
       settings.assets["#{image}.#{format}"]
     end
+
+    get "/assets/:folder/:image.#{format}" do |folder, image|
+      content_type("image/#{format}")
+      settings.assets["#{folder}/#{image}.#{format}"]
+    end
+  end
+
+  set :root, File.expand_path('../../',__FILE__)
+
+  get "/assets/images/*" do
+    imgs = []
+    folder = params["splat"].first
+    path = "#{settings.root}" + "/assets/images/" + folder
+    Dir.entries(path).each {|file| imgs << file if VALID_IMAGE_TYPES.any? {|type| file.match?(type)} }
+    imgs << folder
+
+    content_type("json")
+    imgs.to_json
   end
 end
