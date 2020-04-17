@@ -5,17 +5,15 @@ class NotesController < ApplicationController
     redirect "/" unless note_exist?
   end
 
-
   get "/notes/\*" do
     slug = request.path_info.gsub('/notes/', '')
     @note = Note.build(slug).first
-
     haml :note
   end
 
   private
 
   def note_exist?
-    File.exist? "#{settings.root}/#{request.path}.md"
+    File.exist? "#{settings.root}/md/#{request.path}.md"
   end
 end

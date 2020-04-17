@@ -8,7 +8,12 @@
   p {
     color: #424241;
     line-height: 18px;
+
+    img {
+      max-width: 100%;
+    }
   }
+
 }
 
 pre {

@@ -30,5 +30,10 @@ class Assets < Sinatra::Base
       content_type("image/#{format}")
       settings.assets["#{image}.#{format}"]
     end
+
+    get "/assets/:folder/:image.#{format}" do |folder, image|
+      content_type("image/#{format}")
+      settings.assets["#{folder}/#{image}.#{format}"]
+    end
   end
 end
