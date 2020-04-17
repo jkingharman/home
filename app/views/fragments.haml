@@ -1,4 +1,5 @@
 - @frags[:paginated].each do |frag|
+  - frag = Presenter::Fragment.new(frag).prepare
 
   .row.no-margin-bottom
     #note.content.col.s12.m8.offset-m2

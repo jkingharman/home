@@ -26,10 +26,7 @@ class Assets < Sinatra::Base
     settings.assets['app.css']
   end
 
-  VALID_IMAGE_TYPES = %w[jpg png]
-
-  VALID_IMAGE_TYPES.each do |format|
-    # TODO: remove top level folder
+  %w[jpg png].each do |format|
     get "/assets/:image.#{format}" do |image|
       content_type("image/#{format}")
       settings.assets["#{image}.#{format}"]
@@ -39,18 +36,5 @@ class Assets < Sinatra::Base
       content_type("image/#{format}")
       settings.assets["#{folder}/#{image}.#{format}"]
     end
-  end
-
-  set :root, File.expand_path('../../',__FILE__)
-
-  get "/assets/images/*" do
-    imgs = []
-    folder = params["splat"].first
-    path = "#{settings.root}" + "/assets/images/" + folder
-    Dir.entries(path).each {|file| imgs << file if VALID_IMAGE_TYPES.any? {|type| file.match?(type)} }
-    imgs << folder
-
-    content_type("json")
-    imgs.to_json
   end
 end

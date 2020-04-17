@@ -3,7 +3,7 @@ class FragmentsController < ApplicationController
 
   get "/fragments" do
     @page = params['page'].to_i || 0
-    @frags = asc_order(Fragment.build)
+    @frags = asc_posted_at(Fragment.build)
     @frags = paginate(@frags, @page)
 
     # Go root if there are no fragments for a page.

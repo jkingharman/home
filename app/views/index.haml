@@ -7,7 +7,7 @@
     .divider
     #notes
       %ul
-        - asc_order(@notes).each do |note|
+        - asc_posted_at(@notes).each do |note|
           - unless note.slug == "code_sample"
             %li
               %span #{note.date}
