@@ -17,6 +17,9 @@ gem 'sinatra-router'
 gem 'sprockets'
 gem 'uglifier'
 
+# For image compression
+gem 'mozjpeg'
+
 group :development do
   gem 'pry'
   gem 'shotgun'
