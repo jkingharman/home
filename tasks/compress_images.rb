@@ -2,7 +2,7 @@ require "mozjpeg"
 
 abort("mozJPEG not supported") unless Mozjpeg.supported?
 
-Dir.chdir('../assets/images')
+Dir.chdir('./assets/images')
 
 # Every top-level folder in /images should hold images
 img_dirs = Dir.glob("*").select {|f| File.directory? f }
