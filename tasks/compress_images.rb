@@ -19,9 +19,9 @@ img_dirs.each do |dir|
   #
   #   # Go down to make system call for compressed placeholder
     Dir.chdir(dir)
-    `touch {base_name}.txt`
+    `touch #{base_name}.txt`
     puts `ls`
-  #   `touch #{base_name}-compress.jpg`
+    # `touch #{base_name}-compress.jpg`
   #
   #   in_path = File.new(img)
   #   out_path = File.new("#{base_name}-compress.jpg")
