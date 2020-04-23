@@ -12,18 +12,15 @@ puts `pwd`
 img_dirs.each do |dir|
   # puts `ls`
   Dir.entries(dir).each do |img|
-  #   puts img
-  #   ext_name = File.extname(img)
-  #   base_name = File.basename(img, ".jpg")
+    puts img
+    ext_name = File.extname(img)
+    base_name = File.basename(img, ".jpg")
   #   next if ext_name != ".jpg" || base_name.match?("-compress")
   #
   #   # Go down to make system call for compressed placeholder
     Dir.chdir(dir)
-    `touch test.txt`
+    `touch {base_name}.txt`
     puts `ls`
-
-  #   puts `pwd`
-  #
   #   `touch #{base_name}-compress.jpg`
   #
   #   in_path = File.new(img)
