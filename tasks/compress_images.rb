@@ -7,10 +7,7 @@ Dir.chdir('./assets/images')
 # Every top-level folder in /images should hold images
 img_dirs = Dir.glob("*").select {|f| File.directory? f }
 
-puts `pwd`
-
 img_dirs.each do |dir|
-  # puts `ls`
   Dir.entries(dir).each do |img|
     puts img
     ext_name = File.extname(img)
@@ -24,7 +21,6 @@ img_dirs.each do |dir|
     in_path = File.new(img)
     out_path = File.new("#{base_name}-compress.jpg")
     Mozjpeg.compress in_path, out_path, arguments: '-quality 70 -quant-table 2 -notrellis'
-    puts `ls`
     Dir.chdir("..")
   end
 end
