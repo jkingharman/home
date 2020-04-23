@@ -19,7 +19,9 @@ img_dirs.each do |dir|
   #
   #   # Go down to make system call for compressed placeholder
     Dir.chdir(dir)
+    `touch test.txt`
     puts `ls`
+
   #   puts `pwd`
   #
   #   `touch #{base_name}-compress.jpg`
