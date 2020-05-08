@@ -13,8 +13,8 @@ img_dirs.each do |dir|
     ext_name = File.extname(img)
     base_name = File.basename(img, ".jpg")
     next if ext_name != ".jpg" || base_name.match?("-compress")
-  #
-  #   # Go down to make system call for compressed placeholder
+
+    # Go down to make system call for compressed placeholder
     Dir.chdir(dir)
     `touch #{base_name}-compress.jpg`
 
