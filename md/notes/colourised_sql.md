@@ -1,7 +1,7 @@
 title: colourised SQL
 date: 09-02-2020
 
-Databases are the heart of modern web apps. Sensible developers see the web as various technologies (HTML, URLs, HTTP) or more abstractly as a [directed graph](https://computersciencewiki.org/index.php/The_web_as_a_directed_graph). Their view is truthful but boring. I like to see the web as a global party attended by databases dressed in [flat-design](https://en.wikipedia.org/wiki/Flat_design).
+Databases are the heart of modern web apps. Sensible developers see the web as various technologies (HTML, URLs, HTTP) or more abstractly as a [directed graph](https://computersciencewiki.org/index.php/The_web_as_a_directed_graph). Their view is truthful but boring; I prefer to see the web as a global party attended by databases dressed in [flat-design](https://en.wikipedia.org/wiki/Flat_design).
 
 Most databases speak SQL, which makes SQL handy to know. And yet many junior developers don’t. How come?
 
