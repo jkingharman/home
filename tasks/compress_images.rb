@@ -2,14 +2,12 @@ require "mozjpeg"
 
 abort("mozJPEG not supported") unless Mozjpeg.supported?
 
-Dir.chdir('./assets/images')
-
+Dir.chdir('../assets/images')
 # Every top-level folder in /images should hold images
 img_dirs = Dir.glob("*").select {|f| File.directory? f }
 
 img_dirs.each do |dir|
   Dir.entries(dir).each do |img|
-    puts img
     ext_name = File.extname(img)
     base_name = File.basename(img, ".jpg")
     next if ext_name != ".jpg" || base_name.match?("-compress")
