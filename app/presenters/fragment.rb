@@ -16,7 +16,8 @@ module Presenter
       return unless Dir.exists?(frag_img_folder) && @frag.content.match?("<div class=\"gallery\">")
 
       imgs = Dir.entries("./assets/images/" + "#{@frag.slug}").select {|file| file.match?(/.[jpg|png]$/) && file.match?("-compress") }
-      elems = imgs.map {|img| "<p> <img src='assets/#{@frag.slug}/#{img}'> </img> </p>" }
+
+      elems = imgs.sort.reverse.map {|img| "<p> <img src='assets/#{@frag.slug}/#{img}'> </img> </p>" }
       elems.each {|elem| @frag.content.gsub!("<div class=\"gallery\">", "<div class=\"gallery\"> #{elem}") }
     end
   end
