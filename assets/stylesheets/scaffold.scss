@@ -12,7 +12,7 @@
   }
 
   body {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.7em;
     display: flex;
     min-height: 100vh;
@@ -29,7 +29,7 @@
     li > a {
       color: #0822e1;
       padding-left: 0px;
-      font-size: 13px;
+      font-size: 15px;
       text-decoration: underline;
       font-weight: 400;
     }
@@ -44,7 +44,7 @@
     margin: 10px 0;
     padding-left: 1.5em;
     border-left: transparent;
-    font-size: 11px;
+    font-size: 13px;
   }
 
   blockquote:first-of-type {
@@ -62,6 +62,7 @@
   min-width: 300px;
 
   h6 {
+    font-size: 18px;
     font-weight: 700;
   }
 
