@@ -25,4 +25,4 @@ Time zone rules can change. Suppose the UK finally scrapped BST. You’d have an
 
 Of course, exactly how risky it is will depend. A local scheduling app, in just one time zone, could likely eat the cost of recalculating datetimes if needed. Yet the same may not be true at scale. My point is just that storing UTC _can_ bite you, so think it through. Time zone rules change [often enough](https://codeofmatt.com/on-the-timing-of-time-zone-changes/). And governments sometimes make these changes with little notice, meaning even if recalculating the necessary datetimes is feasible, it might be a painful squeeze.
 
-Stay alert out there :)
+Stay alert out there ;)
