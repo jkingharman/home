@@ -1,5 +1,5 @@
 #index {
-  padding-top: 50px;
+  // padding-top: 50px;
   a {
     padding-left: 5px;
   }
@@ -9,4 +9,13 @@
   li > span {
     color: #333;
   }
+}
+
+#dark {
+  #notes {
+    li > span {
+      color: #9c9c9c;
+    }
+  }
+
 }
