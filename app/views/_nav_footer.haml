@@ -17,3 +17,11 @@
           - unless request.path == "/fragments"
             %li
               %a{href: "/fragments"} fragments
+
+          - unless params[:mode].nil?
+            %li{style: "float: right;"}
+              %a#darkmode{href: ""} dark
+
+          - unless params[:mode] == "light"
+            %li{style: "float: right;"}
+              %a#lightmode{href: ""} light

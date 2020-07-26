@@ -10,7 +10,4 @@ class FragmentsController < ApplicationController
     redirect "/" if @frags[:paginated].empty?
     haml :fragments
   end
-
-  private
-
 end
