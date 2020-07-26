@@ -8,7 +8,7 @@ if (window.location.href.match(/mode=light/)) {
 
   for (var i = 0; i < links.length; i++) {
     linkURL = links[i].href
-    internalLinkPattern = /127.0.0.1:9393|jaskh.net/
+    internalLinkPattern = /(127.0.0.1:9393|jaskh.net)/
 
     if (linkURL.match(internalLinkPattern)) {
       links[i].setAttribute("href", links[i].href.replace(/$|\?mode=light/, "?mode=light"))
@@ -16,8 +16,8 @@ if (window.location.href.match(/mode=light/)) {
   }
 }
 
-var currentURLForLight = window.location.href.replace(/$|\?mode=light/, "?mode=light")
-var currentURLForDark = window.location.href.replace(/$|\?mode=light/, "")
+var currentURLForLight = window.location.href.replace(/($|\?mode=light)/, "?mode=light")
+var currentURLForDark = window.location.href.replace(/($|\?mode=light)/, "")
 
 if (light) {
   light.setAttribute("href", currentURLForLight)
