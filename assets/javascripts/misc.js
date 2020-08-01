@@ -16,6 +16,7 @@ if (window.location.href.match(/mode=light/)) {
   }
 }
 
+// Light and dark link toggle will use current page's href
 var currentURLForLight = window.location.href.replace(/($|\?mode=light)/, "?mode=light")
 var currentURLForDark = window.location.href.replace(/($|\?mode=light)/, "")
 
