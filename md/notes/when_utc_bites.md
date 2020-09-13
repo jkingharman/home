@@ -17,7 +17,7 @@ Suppose it’s January 2020 again. You want to build an app. Ignoring the warnin
 
 As a test of the app, you want to recur a meeting in the UK for 9.00am every Monday. Each meeting will be created by a class and backed by a table row with a start_at column. You hand the class a time zone, recurrence rule, and start at time to create these meetings.
 
-You run the class - an unholy number of meetings appear. You check the database to see each row starts at 9.00am local time on Monday (e.g. UTC 2020-01-01 09:00:00, 2020-01-02 09:00:00, etc). You also see that DST applies. The Monday after the clocks change reads 2020-03-30 08:00:00 UTC because the UK is now on BST. Software, ahem, saves the day.
+You run the class - an unholy number of early-morning meetings appear. You check the database to see each row starts at 9.00am local time on Monday (e.g. UTC 2020-01-01 09:00:00, 2020-01-02 09:00:00, etc). You also see that DST applies. The Monday after the clocks change reads 2020-03-30 08:00:00 UTC because the UK is now on BST. Software, ahem, saves the day.
 
 But actually, maybe not?
 
