@@ -13,7 +13,7 @@ Storing datetimes as UTC works well for _past_ events, or for future _absolute_ 
 
 An example can show the problem.
 
-Suppose it’s January 2020 again. You want to build an app. Ignoring the warnings your dork friends have shouted about forever, you decide to make a calendar app. And because you always double down on terrible life choices, you decide it will support recurring events too.
+Suppose it’s January 2020 again. You want to build an app. Ignoring the [warnings](https://techcommunity.microsoft.com/t5/exchange-team-blog/calendaring-is-really-hard-to-code-and-that-s-why-you-were-an/ba-p/1165583) your dork friends have shouted about forever, you decide to make a calendar app. And because you always double down on terrible life choices, you decide it will support recurring events too.
 
 As a test of the app, you want to recur a meeting in the UK for 9.00am every Monday. Each meeting will be created by a class and backed by a table row with a start_at column. You hand the class a time zone, recurrence rule, and start at time to create these meetings.
 
