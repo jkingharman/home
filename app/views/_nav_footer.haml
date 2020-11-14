@@ -25,3 +25,12 @@
           - unless params[:mode] == "light"
             %li{style: "float: right;"}
               %a#lightmode{href: ""} light
+
+          - if @frags
+            - unless @frags[:upper_bound] >= @frags[:total]
+              %li{style: "float: right;"}
+                %a{href: "fragments?page=#{@page + 1}"} next
+
+            - unless @page == 0
+              %li{style: "float: left;"}
+                %a{href: "fragments?page=#{@page - 1}"} back

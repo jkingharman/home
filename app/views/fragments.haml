@@ -3,16 +3,10 @@
 
   .row.no-margin-bottom
     #note.content.col.s12.m8.offset-m2
-      %h6 
+      %h6
         #{frag.title}
       %span.subhead posted: #{frag.date}
       %p
         #{frag.content}
 
       .divider
-
-- unless @frags[:upper_bound] >= @frags[:total]
-  %a{href: "fragments?page=#{@page + 1}"} Next
-
-- unless @page == 0
-  %a{href: "fragments?page=#{@page - 1}"} Back
