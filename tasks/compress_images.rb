@@ -19,6 +19,12 @@ img_dirs.each do |dir|
     in_path = File.new(img)
     out_path = File.new("#{base_name}-compress.jpg")
     Mozjpeg.compress in_path, out_path, arguments: '-quality 70 -quant-table 2 -notrellis'
+
+    # create the blurred version for lazy loading too
+    in_path = File.new(img)
+    out_path = File.new("#{base_name}-compress-blur.jpg")
+    Mozjpeg.compress in_path, out_path, arguments: '-quality 1  -quant-table 2 -notrellis -smooth 100'
+
     Dir.chdir("..")
   end
 end
