@@ -6,8 +6,6 @@ ruby '2.5.1'
 gem 'foreman'
 gem 'haml'
 gem 'kramdown' # markdown processing
-gem 'kramdown-syntax-coderay'
-gem 'rouge' # syntax highlighting
 gem 'rest-client'
 gem 'sass'
 gem 'sinatra'
