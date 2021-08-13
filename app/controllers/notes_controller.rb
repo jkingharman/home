@@ -7,7 +7,7 @@ class NotesController < ApplicationController
 
   get "/notes/\*" do
     slug = request.path_info.gsub('/notes/', '')
-    @note = Note.build(slug).first
+    @note = MarkdownContent.build("notes", slug).first
     haml :note
   end
 

@@ -11,7 +11,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-    @notes = Note.build
+    @notes = MarkdownContent.build("notes")
 
     haml :index
   end
