@@ -22,6 +22,7 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2018.0812)
+    mini_magick (4.11.0)
     mozjpeg (0.0.2)
       os (~> 0.9.6)
     mustermann (1.0.3)
@@ -75,6 +76,7 @@ DEPENDENCIES
   haml
   kramdown
   kramdown-syntax-coderay
+  mini_magick
   mozjpeg
   pry
   rest-client
