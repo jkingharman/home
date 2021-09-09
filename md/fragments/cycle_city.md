@@ -1,5 +1,6 @@
 title: cycle city
 date: 16-09-2020
+tags: skating, travel
 
 I arrived early into Copenhagen, happy to escape a turbulent flight. The airport metro deposited me at the central station, København H, from where a trip to my airbnb made it clear why biking is so common.
 
@@ -21,7 +22,7 @@ And why hurry when the journey’s so good? Copenhagen is a nice city :)) In the
 
 When all the architectural sameness starts to bore, you can turn your eyes to a lively street life. Danish summers are short, flanked by many months of cold and dark. So locals understandably head out when warmth returns. All over the city I found streets that perpetually felt like first stirrings of a block party. On leave from winter, people make up for lost time by using public space to socialise. Prime public retail-estate, benches and park space, rarely lie vacant and even whole pavements and bridges are occupied in the name of summer.
 
-Not to forget the harbour - home to the city’s most ambitious sunseekers. On the waterfront are several ‘‘harbour baths’ (open-water pools) the best known of which is off Havneparken. The bath here is nicely built, as I discovered when walking the area. On the approach you can see diving towers built out of silvery indigenous wood, the largest shaped like a ship’s bow. A large manicured lawn neighbours the place and the facility itself displays nice touches. There are shallow pools for unsure swimmers and a division between those for lengths or play.
+Not to forget the harbour - home to the city’s most ambitious sunseekers. On the waterfront are several "harbour baths" (open-water pools) the best known of which is off Havneparken. The bath here is nicely built, as I discovered when walking the area. On the approach you can see diving towers built out of silvery indigenous wood, the largest shaped like a ship’s bow. A large manicured lawn neighbours the place and the facility itself displays nice touches. There are shallow pools for unsure swimmers and a division between those for lengths or play.
 
 After reaching the baths and changing, I walked out onto the pontoon to size up the company. It was a relaxed crew. Most people were drinking and either sat with friends or lolling on deck, like happy seals nursing brews. Only a few people were in the pools. Assuming tepid water at best, I admired the swimmers for their strength of discipline or denial, but this feeling left once I dove in and discovered the water was actually warm. The pool felt clean and was a crisp turquoise. I did a few blissed-out laps, got changed, and then aahhhed my way home.
 

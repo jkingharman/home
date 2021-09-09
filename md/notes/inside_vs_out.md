@@ -1,5 +1,6 @@
 title: inside vs. out
 date: 18-06-2016
+tags: psych, error
 
 One idea living close to the top of my mind is the [distinction](https://www.anderson.ucla.edu/faculty/keith.chen/negot.%20papers/KahnemanLovallo_ChoicForcastsRisk93.pdf) between inside and outside forecasting.
 

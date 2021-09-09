@@ -1,5 +1,6 @@
 title: pyrrhic politics
 date: 22-08-2016
+tags: politics, rant
 
 If politics is the art of compromise then current political debate should unsettle you.
 

@@ -1,0 +1,47 @@
+#archive {
+  h6 {
+    color: #fff;
+  }
+}
+
+#dark {
+  #tags {
+    li {
+      display: inline-block;
+      margin-top: 0.4rem;
+    }
+    li > span {
+      color: #fff;
+      cursor: pointer;
+      border-radius: 2px;
+      margin: 0.2rem;
+      padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+      border: 1px solid #fff;
+    }
+
+    li > span:hover {
+      background-color: #fff;
+      color: black;
+    }
+  }
+}
+
+#tags {
+  li {
+    display: inline-block;
+    margin-top: 0.4rem;
+  }
+  li > span {
+    color: black;
+    cursor: pointer;
+    border-radius: 2px;
+    margin: 0.2rem;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    border: 1px solid black;
+  }
+
+  li > span:hover {
+    background-color: black;
+    color: #fff;
+  }
+}

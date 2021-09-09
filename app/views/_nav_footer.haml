@@ -18,6 +18,10 @@
             %li
               %a{href: "/fragments"} fragments
 
+          - unless request.path == "/archive"
+            %li
+              %a{href: "/archive"} archive
+
           - unless params[:mode].nil?
             %li{style: "float: right;"}
               %a#darkmode{href: ""} dark

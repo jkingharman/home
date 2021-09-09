@@ -1,5 +1,6 @@
 title: easier done than said
 date: 08-02-2017
+tags: skating, psych, work
 
 "Yo! Fellah. Straight up: *how did you do that trick*?"
 

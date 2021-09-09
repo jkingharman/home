@@ -7,9 +7,8 @@
     #notes
       %ul
         - asc_posted_at(@notes).each do |note|
-          - unless note.slug == "code_sample"
-            %li
-              %span #{note.date}
-              %a{href: "notes/#{note.slug}"} #{note.title}
+          %li
+            %span #{note.date}
+            %a{href: "notes/#{note.slug}"} #{note.title}
 
     .divider

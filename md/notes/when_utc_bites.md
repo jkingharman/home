@@ -1,5 +1,6 @@
 title: when UTC bites
 date: 28-06-2020
+tags: web, work
 
 Lately, I’ve been working on a feature to do with time. Many devs learn to fear time. A friend once joked that a simple measure of developer experience is how triggered they get on hearing words like “datetimes, “time zones” and - brace yourself  - “daylight saving time”.
 

@@ -1,0 +1,11 @@
+- frag = Presenter::Fragment.new(@fragment).prepare
+
+.row.no-margin-bottom
+  #note.content.col.s12.m8.offset-m2
+    %h6
+      #{frag.title}
+    %span.subhead posted: #{frag.date}
+    %p
+      #{frag.content}
+
+    .divider
