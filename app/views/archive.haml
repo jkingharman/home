@@ -7,10 +7,10 @@
         %ul
           - @tags.each do |tag|
             %li
-              %span #{tag}
+              %span.tag #{tag}
       #notes
         %ul
           - asc_posted_at(@content).each do |content|
-            %li
+            %li.entry{'data-tags': "#{content.tags}"}
               %span #{content.date}
               %a{href: "#{content.type}/#{content.slug}"} #{content.title}
