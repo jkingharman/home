@@ -1,3 +1,5 @@
+require 'pry'
+
 class FragmentsController < ApplicationController
   set :root, File.expand_path('../../..', __FILE__)
 

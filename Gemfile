@@ -12,6 +12,7 @@ gem 'rest-client'
 gem 'sass'
 gem 'sinatra'
 gem 'sinatra-router'
+gem 'pry'
 
 # For asset pipeline functionality
 gem 'sprockets'

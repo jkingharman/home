@@ -28,15 +28,11 @@ var makeAnySelectedTagElementsActive = function(e) {
   }
 }
 
-var updateURL = function(e) {
-  window.history.pushState({}, "archive", "?tags=" + selectedTags.toString())
-}
-
 var deconstructURL = function(e) {
-  if (window.location.href.split("tags=")[1] != undefined) {
-    selectedTags = window.location.href.split("tags=")[1].split(",")
-  } else {
+  if (window.location.href.split("tags=")[1] == undefined) {
     selectedTags = []
+  } else {
+    selectedTags = window.location.href.split("tags=")[1].split(",")
   }
 }
 
@@ -53,7 +49,7 @@ var addOrRemoveSelectedTag = function(e) {
 
   hideAnyContentNotSelected()
   makeAnySelectedTagElementsActive()
-  updateURL()
+  window.history.pushState({}, "archive", "?tags=" + selectedTags.toString())
 };
 
 for(var i=0;i<tagElements.length;i++){

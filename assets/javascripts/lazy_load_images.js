@@ -6,7 +6,7 @@ window.addEventListener("load", function(){
       entry = entries[i]
 
       if (entry.isIntersecting) {
-        entry.target.src = entry.target.src.replace("-blur", "") 
+        entry.target.src = entry.target.src.replace("-blur", "")
       }
     }
   });
