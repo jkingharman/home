@@ -1,40 +1,31 @@
 %footer.page-footer
   .row
-    .col.s12.m8.offset-m2
+    .col.s0.m3
+    .col.s12.m6
       %nav.z-depth-0.center
         %ul
-          - unless request.path == "/about"
-            %li
-              %a{href: "/about"} about
-
-          %li
-            %a{href: "https://github.com/jkingharman"} github
-
           - unless request.path == "/"
             %li
-              %a{href: "/"} home
+              %a{href: "/"} HOME
 
-          - unless request.path == "/fragments"
+          - unless request.path == "/about"
             %li
-              %a{href: "/fragments"} fragments
+              %a{href: "/about"} ABOUT
+
+          - unless request.path == "/scraps"
+            %li
+              %a{href: "/scraps"} SCRAPS
 
           - unless request.path == "/archive"
             %li
-              %a{href: "/archive"} archive
+              %a{href: "/archive"} ARCHIVE
 
-          - unless params[:mode].nil?
-            %li{style: "float: right;"}
-              %a#darkmode{href: ""} dark
-
-          - unless params[:mode] == "light"
-            %li{style: "float: right;"}
-              %a#lightmode{href: ""} light
-
-          - if @frags
-            - unless @frags[:upper_bound] >= @frags[:total]
+          - if @scraps
+            - unless @scraps[:upper_bound] >= @scraps[:total]
               %li{style: "float: right;"}
-                %a{href: "fragments?page=#{@page + 1}"} next
+                %a{href: "scraps?page=#{@page + 1}"} next
 
             - unless @page == 0
               %li{style: "float: left;"}
-                %a{href: "fragments?page=#{@page - 1}"} back
+                %a{href: "scraps?page=#{@page - 1}"} back
+    .col.s0.m3

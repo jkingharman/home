@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/archive' do
-    @content = MarkdownContent.build(["notes", "fragments"])
+    @content = MarkdownContent.build(["notes", "scraps"])
     @tags = @content.map {|content| content.tags&.split(",") }.flatten.compact.map(&:strip).uniq.sort
 
     haml :archive

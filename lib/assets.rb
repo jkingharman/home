@@ -7,6 +7,7 @@ class Assets < Sinatra::Base
       env.append_path(path + '/assets/images')
       env.append_path(path + '/assets/javascripts')
       env.append_path(path + '/assets/stylesheets')
+      env.append_path(path + '/assets/fonts')
 
       if ENV['RACK_ENV'] == 'production'
         env.js_compressor  = :uglify

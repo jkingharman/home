@@ -1,9 +1,10 @@
 .row.no-margin-bottom
-  #note.content.col.s12.m8.offset-m2
-    %h6 
+  .col.s0.m3
+  #note.content.col.s12.m6
+    %h2
       #{@note.title}
-    %span.subhead posted: #{@note.date}
-    %p
-      #{@note.content}
+    %span.subhead Posted: #{@note.date}
+    #{@note.content}
 
     .divider
+  .col.s0.m3
