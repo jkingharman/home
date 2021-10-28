@@ -14,7 +14,7 @@
       %header
       %main
         .container
-          .row.no-margin-bottom.margin-top
+          = haml :_signature_header
           = yield
           = haml :_nav_footer
       %script{async: :defer, src: "https://cdn.simpleanalytics.io/hello.js"}
