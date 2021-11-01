@@ -1,10 +1,26 @@
 .row.no-margin-bottom
   .col.s0.m3
   #note.content.col.s12.m6
-    %h2
+    %h1
       #{@note.title}
+  .col.s0.m3
+.row
+  .col.s0.m3
+    #meta-content
+      %p
+        %span Count
+        %br
+        1300 words
+      %p
+        %span Time
+        %br
+        22 Minutes
+      %p
+        %span Tags
+        %br
+        Politics · Art · Family
+  #note.content.col.s12.m6
     %span.subhead Posted: #{@note.date}
     #{@note.content}
-
     .divider
   .col.s0.m3

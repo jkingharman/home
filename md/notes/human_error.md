@@ -1,10 +1,8 @@
-title: human error
+title: Human Error
 date: 17-11-2016 07:52:56 UTC
 tags: psych, error
 
-"Nobody knows anything" -- so said William Goldman, the [screenwriter](https://www.amazon.com/exec/obidos/ASIN/0446391174/thebigpictu09-20) and [novelist](https://en.wikipedia.org/wiki/William_Goldman).
-
-Goldman was talking about Hollywood's [inability](https://www.economist.com/news/business/21591881-business-tinseltown-unpredictable-it-was-30-years-ago-even-now-nobody-knows) to [predict](https://www.amazon.co.uk/Hollywood-Economics-Uncertainty-Routledge-Contemporary/dp/0415312612) commercial success. But his line here is well known because he needn't have been: the same thing could be said with equal force in many other industries.
+Nobody knows anything" -- so said William Goldman, the [screenwriter](https://www.amazon.com/exec/obidos/ASIN/0446391174/thebigpictu09-20) and [novelist](https://en.wikipedia.org/wiki/William_Goldman). Goldman was talking about Hollywood's [inability](https://www.economist.com/news/business/21591881-business-tinseltown-unpredictable-it-was-30-years-ago-even-now-nobody-knows) to [predict](https://www.amazon.co.uk/Hollywood-Economics-Uncertainty-Routledge-Contemporary/dp/0415312612) commercial success. But his line here is well known because he needn't have been: the same thing could be said with equal force in many other industries.
 
 It is no secret that most unit trust [managers](https://www.bloomberg.com/view/articles/2014-05-21/hedge-funds-won-t-make-you-rich) [under](https://www.investorschronicle.co.uk/2015/11/24/comment/chris-dillow/another-mis-selling-scandal-zfwU3Ro1QD674rqOTnZlRP/article.html)-[perform](https://www.vanguard.co.uk/documents/adv/literature/case-for-index-fund-investing-uk-adviser-brief.pdf). Or that [political](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1056&context=marketing_papers) [pundits's](https://www.newyorker.com/magazine/2005/12/05/everybodys-an-expert) [forecasts](https://www.project-syndicate.org/commentary/how-accurate-are-your-pet-pundits?barrier=true)[](https://www.newyorker.com/magazine/2005/12/05/everybodys-an-expert) are rarely better than chance. Or that consultancies's economic predictions are [often questionable](https://ritholtz.com/2016/04/161250/), for instance. The evidence that some professionals frequently overstate their skill and knowledge is overwhelming.
 

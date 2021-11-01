@@ -1,10 +1,8 @@
-title: easier done than said
+title: Easier Done than Said
 date: 08-02-2017
 tags: skating, psych, work
 
-"Yo! Fellah. Straight up: *how did you do that trick*?"
-
-I got asked this question last night out skating. Older skaters get it all the time. The kid who asked was a beginner (a "[grom](https://www.urbandictionary.com/define.php?term=grom)", as they're called in the wild) and my reply the usual: "sorry, but I don't know. Tricks are easier done than said."
+Yo! Fellah. Straight up: *how did you do that trick*?" I got asked this question last night out skating. Older skaters get it all the time. The kid who asked was a beginner (a "[grom](https://www.urbandictionary.com/define.php?term=grom)", as they're called in the wild) and my reply the usual: "sorry, but I don't know. Tricks are easier done than said."
 
 This is not just me being a nark. The brute fact is I really can't articulate how tricks are done. And that's because my knowledge of how to skate is what [Michael Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi) called "[tacit knowledge](https://en.wikipedia.org/wiki/Tacit_knowledge)".
 

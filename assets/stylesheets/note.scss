@@ -1,8 +1,9 @@
 #note {
   span.subhead {
+    line-height: 1.1rem;
     font-size: 12px;
     font-family: "Soehne-buch";
-    color: #000;
+    color: #cdcdcd;
   }
 
   p {
@@ -12,7 +13,17 @@
   }
 
   p:first-of-type {
-    margin-top: 0.4rem;
+    margin-top: 0.8rem;
+  }
+
+  p:first-of-type::first-letter {
+    float: left;
+    font-size: 3.0rem;
+    line-height: 0.4em;
+    border: 2px solid #ED6C5C;
+    border-radius: 2px;
+    padding: .7rem .5rem;
+    margin: 2px 8px 0 0;
   }
 
 }

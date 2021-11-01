@@ -1,4 +1,4 @@
-title: inside vs. out
+title: Inside vs. Out
 date: 18-06-2016
 tags: psych, error
 

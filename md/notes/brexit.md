@@ -1,4 +1,4 @@
-title: brexit and chesterton
+title: Brexit & Chesterton
 date: 05-10-2016
 tags: politics, rant
 

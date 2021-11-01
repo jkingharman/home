@@ -1,4 +1,4 @@
-title: satisficer
+title: Satisficer
 date: 15-03-2016
 tags: psych, error
 
