@@ -3,7 +3,7 @@ date: 18-06-2016
 tags: psych, error
 
 One idea living close to the top of my mind is the [distinction](https://www.anderson.ucla.edu/faculty/keith.chen/negot.%20papers/KahnemanLovallo_ChoicForcastsRisk93.pdf) between inside and outside forecasting.
-
+{: .dropcap}
 The other day, I was reminded of this when talking to a young entrepreneur. He was trying to make a big decision -- whether to shutter his startup or not -- and told me he was leaning towards carrying on. His odds of success were good enough to justify persevering, he said. I asked why he thought this; his reply was interesting. Basically, it was that [he knew himself](https://www.scientificamerican.com/podcast/episode/know-thyself-11-05-07/). He knew his plan. Knew his product. Knew his abilities, deficits. So there was risk in doubling down, yes. But it was calculated risk.
 
 How calculated though?
@@ -20,18 +20,19 @@ This poses the question: can we correct for such forecasts? In theory, yeah. Jus
 
 The outside view is a contrasting and less intuitive way to forecast. Rather than predict based on personal circumstance, this view tells you to consult other cases similar to yours and big enough to be statistically significant: [a reference class](https://en.wikipedia.org/wiki/Reference_class_forecasting). If you find the statistical features of this class -- the survival rate of certain startups, let's say -- and anchor your forecast to those stats, you'll better predict your own fate.
 
-Take my entrepreneur friend. He forecasted on the basis of his perceived skills, plans, etc. But what if he'd taken the outside view? In this case, he would have mostly* discounted those perceptions. Instead, he would have asked: for people like me, growing a similar startup, what's the survival rate? If he anchored a forecast to that rate, it would almost definitely be more accurate than his actual forecast.
+Take my entrepreneur friend. He forecasted on the basis of his perceived skills, plans, etc. But what if he'd taken the outside view? In this case, he would have mostly[^1] discounted those perceptions. Instead, he would have asked: for people like me, growing a similar startup, what's the survival rate? If he anchored a forecast to that rate, it would almost definitely be more accurate than his actual forecast.
 
 But also more sobering. [Which](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2094387) [is](https://news.nationalgeographic.com/news/2011/09/110914-optimism-narcissism-overconfidence-hubris-evolution-science-nature/) the [rub](https://stumblingandmumbling.typepad.com/stumbling_and_mumbling/2009/07/kevin-pietersen-rational-overconfidence.html) [here](https://escholarship.org/uc/item/5zz0q2r0#page-1).
 
-Often, when you consult a reference class you see your odds are low -- so low, in fact, that the rational response is to fold. Yet few people do. Humans are irrational perseverers*. When faced with the choice, Daniel Kahneman noted, most of us would "rather give up our rationality than our enterprise".
+Often, when you consult a reference class you see your odds are low -- so low, in fact, that the rational response is to fold. Yet few people do. Humans are irrational perseverers[^2]. When faced with the choice, Daniel Kahneman noted, most of us would "rather give up our rationality than our enterprise".
 
 For me, the inside-outside distinction therefore teaches an important lesson, one which perhaps explains its place in my mind. It's that human rationality has [sharp limits](https://en.wikiquote.org/wiki/Bounded_rationality). And that as an ideal rationality demands so (too?) much.
 
-> **1.** *Mostly, but not wholly. Personal facts should inform the prediction, though only for fine-tuning purposes. These facts are reasons to tweak your prediction either way from a base-rate (as described in depth [here](https://www.edge.org/conversation/philip_tetlock-a-short-course-in-superforecasting)).*
+<div class="divider"></div>
 
-> **2.** *Is this necessarily a bad thing? Behaviour that is irrational for the individual can be desirable collectively. We all benefit from living in a society where people chase costly dreams despite a negligible chance of success. As Richard Nisbett [pointed out](https://www.hofstralawreview.org/wp-content/uploads/2014/05/54_9HofstraLRev16211980-1981.pdf):*
+[^1]: Mostly, but not wholly. Personal facts should inform the prediction, though only for fine-tuning purposes. These facts are reasons to tweak your prediction either way from a base-rate (as described in depth [here](https://www.edge.org/conversation/philip_tetlock-a-short-course-in-superforecasting)).
 
-> *"We probably would have few novelists, actors or scientists if all potential aspirants to these careers took action based on a normatively justifiable probability of success. We might also have few new products, new medical procedures, new political movements or new scientific theories."*
+[^2]:
+    Is this necessarily a bad thing? Behaviour that is irrational for the individual can be desirable collectively. We all benefit from living in a society where people chase costly dreams despite a negligible chance of success. As Richard Nisbett [pointed out](https://www.hofstralawreview.org/wp-content/uploads/2014/05/54_9HofstraLRev16211980-1981.pdf):
 
-> *They could have added that London or New York or Los Angeles would be barren in hours. Irrationality makes the world go 'round.*
+    > *"We probably would have few novelists, actors or scientists if all potential aspirants to these careers took action based on a normatively justifiable probability of success. We might also have few new products, new medical procedures, new political movements or new scientific theories."*

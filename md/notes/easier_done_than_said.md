@@ -3,7 +3,7 @@ date: 08-02-2017
 tags: skating, psych, work
 
 Yo! Fellah. Straight up: *how did you do that trick*?" I got asked this question last night out skating. Older skaters get it all the time. The kid who asked was a beginner (a "[grom](https://www.urbandictionary.com/define.php?term=grom)", as they're called in the wild) and my reply the usual: "sorry, but I don't know. Tricks are easier done than said."
-
+{: .dropcap}
 This is not just me being a nark. The brute fact is I really can't articulate how tricks are done. And that's because my knowledge of how to skate is what [Michael Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi) called "[tacit knowledge](https://en.wikipedia.org/wiki/Tacit_knowledge)".
 
 Many tasks in life -- from tying shoes to [spotting tumours](https://www.ncbi.nlm.nih.gov/pubmed/18777417) -- draw on tacit knowledge. Its opposite is [explicit knowledge](https://en.wikipedia.org/wiki/Descriptive_knowledge): the definite facts produced [by](https://en.wikipedia.org/wiki/Logic) [rational](https://en.wikipedia.org/wiki/Mathematics) [enquiry](https://en.wikipedia.org/wiki/Scientific_method). In principle, these fields's conceptual tools could describe skating. You could, say, capture the perfect kickflip with a formula. But I am not solving anything in my head when doing [one](https://www.instagram.com/p/BMJ3UWYBmPm/?taken-by=krisjal)*. And a formula is not the kind of knowledge groms's want.

@@ -3,7 +3,7 @@ date: 28-06-2020 07:52:56 UTC
 tags: web, work
 
 Lately, I’ve been working on a feature to do with time. Many devs learn to fear time. A friend once joked that a simple measure of developer experience is how triggered they get on hearing words like “datetimes, “time zones” and - brace yourself  - “daylight saving time”.
-
+{: .dropcap}
 I think I’m starting to understand this fear. Working with time in code can be hard. Offset edge cases pile up. Conversion logic snowballs. You find momentary relief in [funny stories](https://www.si.com/extra-mustard/2013/12/30/the-extra-mustard-trivia-hour-when-a-calendar-defeated-russia-in-the-1908-olympics?utm_source=reddit.com) about time but that fades and then again you wonder: _surely there’s a better way to code this?_
 
 Stack Overflow to the rescue.

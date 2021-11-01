@@ -3,7 +3,7 @@ date: 27-04-2016
 tags: psych, error
 
 Here's a [story](https://books.google.co.uk/books?id=za4HAAAAQBAJ&pg=PA160&lpg=PA160&dq=fire+commander+story%2Bintuition&source=bl&ots=4lC0MC40R8&sig=X0JCRUg1L39M35t1Lxhbj6AlqxI&hl=en&sa=X&ved=0ahUKEwiCi7Ky7rbOAhUlLMAKHZm1BqwQ6AEIMTAB#v=onepage&q=fire%20commander%20story%2Bintuition&f=false). A fire commander tries to put out a small fire in a normal one-floor house. He hoses it with water, which has oddly little effect. He tries again; same result. "Strange", he thinks. Taking a few steps back he decides to confer with his team. In that moment, something feels amiss. He can't give a reason for his disquiet. But he orders his team out of the house anyway. Shortly after, the floor where they stood collapses: the fire had started in the basement, unknown to them.
-
+{: .dropcap}
 Intuition can sometimes seem [magic](https://www.amazon.co.uk/Sources-Power-People-Make-Decisions/dp/0262611465). We marvel at stories like the fire commander's. Cases where fast, accurate, and compelling intuitions save lives. [Impressive](https://theinvisiblegorilla.com/blog/2012/02/15/how-experts-recall-chess-positions/), too, are the chess [grandmasters](https://scienceblogs.com/cortex/2010/01/18/chess-intuition/) who can [intuit](https://link.springer.com/chapter/10.1007/978-1-4757-1968-0_18) how a match will unfold. Or the [neonatal nurse](https://www.hansfagt.dk/Kahneman_and_Klein(2009).pdf) who can sense a baby has a dangerous infection well before tests return. Intuitive judgements, like these, seem superhuman. Precognitive even.
 
 Perhaps because they can seem so inspired, such judgements are are widely admired. A strong presumption that we should heed our gut's voice exists -- particularly in business and sporting circles.

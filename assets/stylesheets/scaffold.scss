@@ -50,15 +50,11 @@
   }
 
   blockquote {
+    border-left: 10px solid #ccc;
     margin: 10px 0;
     padding-left: 1.5em;
-    border-left: transparent;
-    font-size: 13px;
+    // border-left: transparent;
   }
-
-  blockquote:first-of-type {
-  padding-top: 10px;
-}
 
   .page-footer {
     padding: 0px;
@@ -127,6 +123,19 @@
   .divider {
     width: 80%;
     margin: 30px auto;
+  }
+
+  .footnotes {
+    padding: 0 50 0 50;
+    font-size: 13px;
+
+    ol {
+      padding: 0;
+    }
+
+    p {
+      line-height:  145%;
+    }
   }
 }
 
