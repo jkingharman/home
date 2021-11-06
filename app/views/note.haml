@@ -1,26 +1,17 @@
 .row.no-margin-bottom
-  .col.s0.m3
-  #note.content.col.s12.m6
+  .col.s0.m3.l3
+  #note-header.content.col.s12.m9.l6
     %h1
       #{@note.title}
-  .col.s0.m3
-.row
-  .col.s0.m3
-    #meta-content
-      %p
-        %span Count
-        %br
-        1300 words
-      %p
-        %span Time
-        %br
-        22 Minutes
-      %p
-        %span Tags
-        %br
-        Politics · Art · Family
-  #note.content.col.s12.m6
+  .col.s0.m0.l3
+.row.no-margin-bottom
+  = haml :_meta_content, locals: {note: @note}
+
+  #note.content.col.s12.m9.l6
     %span.subhead Posted: #{@note.date}
     #{@note.content}
     .divider
-  .col.s0.m3
+  .col.s0.m0.l3
+  
+.row#meta-content-mob
+  = haml :_meta_content_mob, locals: {note: @note}

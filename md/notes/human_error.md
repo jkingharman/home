@@ -1,6 +1,8 @@
 title: Human Error
-date: 17-11-2016 07:52:56 UTC
+date: 17-11-2016 17:39:24 UTC
 tags: psych, error
+count: 525
+time: ~ 3
 
 Nobody knows anything" -- so said William Goldman, the [screenwriter](https://www.amazon.com/exec/obidos/ASIN/0446391174/thebigpictu09-20) and [novelist](https://en.wikipedia.org/wiki/William_Goldman). Goldman was talking about Hollywood's [inability](https://www.economist.com/news/business/21591881-business-tinseltown-unpredictable-it-was-30-years-ago-even-now-nobody-knows) to [predict](https://www.amazon.co.uk/Hollywood-Economics-Uncertainty-Routledge-Contemporary/dp/0415312612) commercial success. But his line here is well known because he needn't have been: the same thing could be said with equal force in many other industries.
 {: .dropcap}

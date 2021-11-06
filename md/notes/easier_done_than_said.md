@@ -1,12 +1,14 @@
 title: Easier Done than Said
-date: 08-02-2017
+date: 08-02-2017 11:51:20 UTC
 tags: skating, psych, work
+count: 609
+time: ~ 3
 
 Yo! Fellah. Straight up: *how did you do that trick*?" I got asked this question last night out skating. Older skaters get it all the time. The kid who asked was a beginner (a "[grom](https://www.urbandictionary.com/define.php?term=grom)", as they're called in the wild) and my reply the usual: "sorry, but I don't know. Tricks are easier done than said."
 {: .dropcap}
 This is not just me being a nark. The brute fact is I really can't articulate how tricks are done. And that's because my knowledge of how to skate is what [Michael Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi) called "[tacit knowledge](https://en.wikipedia.org/wiki/Tacit_knowledge)".
 
-Many tasks in life -- from tying shoes to [spotting tumours](https://www.ncbi.nlm.nih.gov/pubmed/18777417) -- draw on tacit knowledge. Its opposite is [explicit knowledge](https://en.wikipedia.org/wiki/Descriptive_knowledge): the definite facts produced [by](https://en.wikipedia.org/wiki/Logic) [rational](https://en.wikipedia.org/wiki/Mathematics) [enquiry](https://en.wikipedia.org/wiki/Scientific_method). In principle, these fields's conceptual tools could describe skating. You could, say, capture the perfect kickflip with a formula. But I am not solving anything in my head when doing [one](https://www.instagram.com/p/BMJ3UWYBmPm/?taken-by=krisjal)*. And a formula is not the kind of knowledge groms's want.
+Many tasks in life -- from tying shoes to [spotting tumours](https://www.ncbi.nlm.nih.gov/pubmed/18777417) -- draw on tacit knowledge. Its opposite is [explicit knowledge](https://en.wikipedia.org/wiki/Descriptive_knowledge): the definite facts produced [by](https://en.wikipedia.org/wiki/Logic) [rational](https://en.wikipedia.org/wiki/Mathematics) [enquiry](https://en.wikipedia.org/wiki/Scientific_method). In principle, these fields's conceptual tools could describe skating. You could, say, capture the perfect kickflip with a formula. But I am not solving anything in my head when doing [one](https://www.instagram.com/p/BMJ3UWYBmPm/?taken-by=krisjal)[^1]. And a formula is not the kind of knowledge groms's want.
 
 What groms want is tacit knowledge. They want the *feel* of a kickflip. But this means their questions are futile, because tacit knowledge is inarticulable. You learn to skate much as you learn to bike -- through watching, experimenting and repetition. Learning a trick by talking makes no more sense than learning math by dancing. As older skaters know. We all get Polanyi's point that "We know more than we can tell."
 
@@ -22,4 +24,4 @@ This has costs. Consider:
 
 --- **It harms productivity**. Tacit knowledge is important at [work](https://books.google.co.uk/books?id=IC95AgAAQBAJ&printsec=frontcover&dq=tacit+knowledge+in+professional+practice&hl=en&sa=X&ved=0ahUKEwjx3aDfqovQAhXhJcAKHQzfDm8Q6AEIHTAA#v=onepage&q=tacit%20knowledge%20in%20professional%20practice&f=false). Salespeople have non-verbal hunches about how to treat clients. Scientists often can't say how they knew a result was off, and so on. Assessment of ability, however, often ignores tacit input. Exercises like the [REF](https://en.wikipedia.org/wiki/Research_Excellence_Framework) and [performance reviews](https://en.wikipedia.org/wiki/Performance_appraisal) make people justify their worth in words. This can promote [adverse selection](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=486382): productive but inarticulable jobs get cut, articulable but unproductive ones retained. Somewhat [paradoxically](https://www.finance.uts.edu.au/research/wpapers/wp101.pdf) [organisations](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=324060) may actually select for people *lacking* human capital, at least some of the time. What can be said, doesn't always matter. And what matters, can't always be said.
 
-> **1.** *Any old kickflip that is. Mine are never perfect. But whatever. Ever tried. Ever failed and [all that](https://genius.com/Samuel-beckett-worstward-ho-annotated).*
+[^1]: Any old kickflip that is. Mine are never perfect. But whatever. Ever tried. Ever failed and [all that](https://genius.com/Samuel-beckett-worstward-ho-annotated).

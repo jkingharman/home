@@ -18,6 +18,11 @@ class MarkdownContent < Sinatra::Base
     content_struct.type = type
     content_struct.content = Kramdown::Document.new(content).to_html
     content_struct.slug = File.basename(file, '.md')
+
+    unless content_struct.tags.nil?
+      content_struct.tags = content_struct.tags&.split(",").flatten.compact.map(&:strip).uniq.sort
+    end
+
     content_struct
   end
 end

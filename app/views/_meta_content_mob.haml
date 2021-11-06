@@ -1,0 +1,14 @@
+.col.s12.hide-on-med-and-up
+  %div
+    %p
+      %span Count
+      %br
+      = note.count.to_s + " words"
+    %p
+      %span Time
+      %br
+      = note.time + " minutes"
+    %p
+      %span Tags
+      %br
+      = formatted_tags(note.tags)

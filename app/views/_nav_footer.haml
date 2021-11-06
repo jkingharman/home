@@ -1,7 +1,7 @@
 %footer.page-footer
   .row
-    .col.s0.m3
-    .col.s12.m6
+    .col.s0.m2.l3
+    .col.s12.m8.l6
       %nav.z-depth-0.center
         %ul
           - unless request.path == "/"
@@ -28,4 +28,4 @@
             - unless @page == 0
               %li{style: "float: left;"}
                 %a{href: "scraps?page=#{@page - 1}"} back
-    .col.s0.m3
+    .col.s0.m2.l3

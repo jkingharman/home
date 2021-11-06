@@ -1,6 +1,8 @@
 title: Pyrrhic Politics
-date: 22-08-2016
+date: 22-08-2016 08:20:05 UTC
 tags: politics, rant
+count: 573
+time: ~ 3
 
 If politics is the art of compromise then current political debate should unsettle you. I say this because political debate is [becoming](https://link.springer.com/article/10.1057%2Fpol.2014.10) more [extreme](https://governmentpoliticscitizenship.wordpress.com/2016/01/28/the-2016-election-cycle-and-the-polarization-of-our-politics/). Liberal democratic politics, as [Gentzkow](https://web.stanford.edu/~gentzkow/research/PolarizationIn2016.pdf) writes, is polarising fast. This matters. Polarisation throws sand in the gears of government. It creates political impasse, as we saw with Congress's shutdown. And it saps our empathy for political rivals.
 {: .dropcap}

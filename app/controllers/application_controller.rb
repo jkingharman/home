@@ -1,8 +1,9 @@
 require_relative '../helpers/sort_helpers'
 require_relative '../helpers/paginate_helpers'
+require_relative '../helpers/tag_helpers'
 
 class ApplicationController < Sinatra::Base
-  helpers Helpers::Sort, Helpers::Paginate
+  helpers Helpers::Sort, Helpers::Paginate, Helpers::Tag
   # set folder for templates to ../views, but make the path absolute
   set :views, File.expand_path('../../views', __FILE__)
 
@@ -22,8 +23,7 @@ class ApplicationController < Sinatra::Base
 
   get '/archive' do
     @content = MarkdownContent.build(["notes", "scraps"])
-    @tags = @content.map {|content| content.tags&.split(",") }.flatten.compact.map(&:strip).uniq.sort
-
+    @tags = @content.map {|content| content.tags }.flatten.compact.uniq.sort
     haml :archive
   end
 end
