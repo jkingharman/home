@@ -1,14 +1,26 @@
 .row.no-margin-bottom
-  #index.content.col.s12.m8.offset-m2
-    %h6
-      jkh
+  #index
+    .row.no-margin-bottom
+      = haml :_sidenav
+      .col.m10#about-section
+        %div
+          %h4
+            Hi, I'm Jasper
+            %br
+            %br
+            I am an interactive developer based in X. I spend my time designing and building web experiences, exploring the depth to which we can leave lasting impacts on users through novel interactions. I am currently working toward my B.S. in Computer Science and Design at Northeastern University.
 
-    .divider
-    #notes
-      %ul
-        - asc_posted_at(@notes).each do |note|
-          %li
-            %span #{note.date}
-            %a{href: "notes/#{note.slug}"} #{note.title}
+          %h6
+            Read more ☟
+      #section-container.col.s12.m10.offset-m2
+        .col.s12.l6#posts-section
+          %div
+            %h4 Posts
+            %ul
+              - 10.times do
+                %li content
 
-    .divider
+        .col.s12.l6#contact-section
+          %div
+            %h1
+              Say hi

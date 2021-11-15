@@ -11,6 +11,6 @@
       #notes
         %ul
           - asc_posted_at(@content).each do |content|
-            %li.entry{'data-tags': "#{content.tags}"}
+            %li.entry{'data-tags': "#{content.tags&.join(", ")}"}
               %span #{content.date}
               %a{href: "#{content.type}/#{content.slug}"} #{content.title}

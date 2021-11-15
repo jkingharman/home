@@ -33,3 +33,17 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Soehne-leicht';
+    src: url('../fonts/soehne/soehne-leicht.woff2') format('woff2');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soehne-dre';
+    src: url('../fonts/soehne/soehne-dreiviertelfett.woff2') format('woff2');
+    font-weight: lighter;
+    font-style: normal;
+}

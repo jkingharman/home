@@ -8,14 +8,13 @@
     / Import materialize font
     %link{href: "https://fonts.googleapis.com/icon?family=Material+Icons", rel: "stylesheet"}
     %link{href: "/assets/app.css", rel: "stylesheet", type: "text/css"}
-    %link{rel:"shortcut icon", type:"image/png", href:"/assets/grad-favi.png"}
+    %link{rel:"shortcut icon", type:"image/png", href:"/assets/favi.png"}
     %script{src:"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"}
     %body
       %header
       %main
-        .container
-          = haml :_signature_header
-          = yield
+        = yield
+        - unless request.path == "/"
           = haml :_nav_footer
       %script{async: :defer, src: "https://cdn.simpleanalytics.io/hello.js"}
       %noscript

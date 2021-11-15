@@ -11,4 +11,8 @@
     %p
       %span Tags
       %br
-      = formatted_tags(note.tags)
+        - note.tags.each do |tag|
+          %a{href: "/archive?tags=,#{tag}"}
+            = tag
+          - unless tag == note.tags.last
+            %span.middot

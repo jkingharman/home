@@ -11,23 +11,36 @@
   }
 
   .container {
-    @media (min-width: 992px) {
-      width: 100%;
-    }
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   body {
     font-size: 16px;
     line-height: 1.7em;
-    display: flex;
     min-height: 100vh;
-    flex-direction: column;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     text-rendering: optimizeLegibility !important;
   }
 
   main {
     flex: 1 0 auto;
+  }
+
+  #navlinks {
+    @media (max-width: 600px) {
+      display: none;
+    }
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 8.333%;
+    bottom: 0;
+    a {
+      display: block;
+      font-family: "Soehne-halbfett";
+      color: #222222;
+    }
   }
 
   nav {
@@ -71,15 +84,6 @@
   }
 }
 
-#logo-container {
-  max-height: 3.25em;
-  width: 100%;
-
-  @media (max-width: 992px) {
-    max-height: 2.8em;
-  }
-}
-
 #logo {
   fill: #ED6C5C;
 }
@@ -111,10 +115,16 @@
   // }
 }
 
-#meta-content {
-  // @media (max-width: 576px) {
-  //   display: none;
-  // }
+#side {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  @media (max-width: 600px) {
+    padding: 0;
+  }
+  @media (min-width: 600px) {
+    position: sticky;
+    top: 0;
+  }
 }
 
 .content {

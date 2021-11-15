@@ -7,8 +7,7 @@ var hideAnyContentNotSelected = function(e) {
   for(var i=0;i<contentElements.length;i++){
     var contentElement = contentElements[i]
     var contentElementTags = contentElement.getAttribute("data-tags").split(",").map(function(e) { return e.trim() } )
-
-    if (selectedTags.length == 0 || selectedTags.some(function(e) { return contentElementTags.includes(e) })) {
+    if ((selectedTags.length == 0 || selectedTags.length == 1) || selectedTags.some(function(e) { return contentElementTags.includes(e) })) {
       contentElement.classList.remove("hide")
     } else {
       contentElement.classList.add("hide")

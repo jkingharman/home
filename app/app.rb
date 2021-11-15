@@ -4,7 +4,6 @@ require_relative 'controllers/scraps_controller'
 
 require_relative 'helpers/paginate_helpers'
 require_relative 'helpers/sort_helpers'
-require_relative 'helpers/tag_helpers'
 
 require_relative 'models/markdown_content'
 

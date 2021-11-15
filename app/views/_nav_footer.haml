@@ -14,11 +14,11 @@
 
           - unless request.path == "/scraps"
             %li
-              %a{href: "/scraps"} SCRAPS
+              %a{href: "/scraps"} POSTS
 
           - unless request.path == "/archive"
             %li
-              %a{href: "/archive"} ARCHIVE
+              %a{href: "/archive"} CONTACT
 
           - if @scraps
             - unless @scraps[:upper_bound] >= @scraps[:total]

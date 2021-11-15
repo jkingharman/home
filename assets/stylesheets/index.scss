@@ -1,12 +1,103 @@
-#index {
-  // padding-top: 50px;
-  a {
-    padding-left: 5px;
+#logo-container {
+
+  @media (min-width: 992px) {
+    margin-top: 40px;
+  }
+  max-height: 3.25em;
+  width: 100%;
+
+  @media (max-width: 992px) {
+    max-height: 2.8em;
   }
 }
 
-#notes {
-  li > span {
-    color: #333;
+#logo {
+  fill: #ED6C5C;
+}
+
+
+
+#index {
+  -webkit-font-smoothing: antialiased;
+}
+
+#about-section {
+  margin-bottom: 0.2em;
+  background-color: 181818;
+  div {
+    padding: 40;
+  }
+
+  h6 {
+    margin-top: 3.5em;
+    font-family: 'Soehne-kraftig';
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-size: 1em;
+
+  }
+
+  h4 {
+    font-family: 'Soehne-kraftig';
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-size: 1.7em;
+  }
+}
+
+#posts-section {
+  div {
+    padding: 40;
+  }
+
+  @media (min-width: 992px) {
+    border-right: solid 3.2px #FFFFFF;
+  }
+
+  @media (max-width: 992px) {
+    margin-bottom: 0.2em;
+  }
+
+  background-color: 181818;
+
+  h4 {
+    font-family: 'Soehne-kraftig';
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-size: 1.7em;
+  }
+}
+
+#contact-section {
+  cursor: pointer;
+  background-color: 181818;
+  div {
+    padding: 40;
+  }
+  h1 {
+    margin-top: 1.2rem;
+    color: #FFFFFF;
+    font-size: 5.3em;
+    font-family: 'Calluna'
+  }
+}
+
+#contact-section:hover {
+  -webkit-transition: all 100ms ease;
+  -moz-transition: all 100ms ease;
+  -ms-transition: all 100ms ease;
+  -o-transition: all 100ms ease;
+  transition: all 100ms ease;
+  background-color: #cdcdcd;
+  h1 {
+    color: #ED6C5C;
+  }
+}
+
+#section-container {
+  padding: 0;
+
+  @media (min-width: 992px) {
+    display: flex;
   }
 }
