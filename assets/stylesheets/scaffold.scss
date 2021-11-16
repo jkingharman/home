@@ -29,6 +29,7 @@
   }
 
   #navlinks {
+    text-align: center;
     @media (max-width: 600px) {
       display: none;
     }
@@ -36,10 +37,19 @@
     transform: translate(-50%, -50%);
     left: 8.333%;
     bottom: 0;
+
     a {
+      font-size: 1em;
+      margin-bottom: 2px;
+      letter-spacing: 0.3px;
       display: block;
       font-family: "Soehne-halbfett";
-      color: #222222;
+      color: rgba(0,0,0,.87);
+
+      @media (max-width: 800px) {
+        font-size: 0.8em;
+        margin-bottom: 0.5px;
+      }
     }
   }
 
@@ -113,6 +123,10 @@
   // @media (min-width: 576px) {
   //   display: none;
   // }
+}
+
+#sidenav {
+  padding: 0;
 }
 
 #side {
@@ -192,4 +206,22 @@
 
 .margin-top {
   margin-top: 40px;
+}
+
+.skew-forward-on-hover {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: transform;
+transition-property: transform;
+-webkit-transform-origin: 0 100%;
+transform-origin: 0 100%;
+}
+.skew-forward-on-hover:hover, .skew-forward-on-hover:focus, .skew-forward-on-hover:active {
+-webkit-transform: skew(-10deg);
+transform: skew(-10deg);
 }
