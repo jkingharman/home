@@ -3,6 +3,8 @@ date: 08-02-2017 11:51:20 UTC
 tags: skating, work
 count: 609
 time: ~ 3
+index: true
+index_order: 3
 
 Yo! Fellah. Straight up: *how did you do that trick*?" I got asked this question last night out skating. Older skaters get it all the time. The kid who asked was a beginner (a "[grom](https://www.urbandictionary.com/define.php?term=grom)", as they're called in the wild) and my reply the usual: "sorry, but I don't know. Tricks are easier done than said."
 {: .dropcap}

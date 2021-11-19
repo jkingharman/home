@@ -74,6 +74,42 @@
 }
 
 #posts-section {
+  .note-overview {
+    padding: 0;
+    li {
+      div {
+        padding: 0
+      }
+    }
+
+    p {
+      margin-top: 10px;
+    }
+
+    .date {
+      color: #ED6C5C;
+      margin-left: 3px;
+      font-family: 'Soehne-kraftig';
+      font-size: 0.6em;
+      font-style: italic;
+    }
+
+    .title {
+      a {
+        font-family: 'Soehne-kraftig';
+        font-size: 1em;
+        color: #FFFFFF;
+      }
+    }
+
+    .hook {
+      position: relative;
+      bottom: 10px;
+      font-size: 0.8em;
+      color: #FFFFFF;
+      line-height: 1.5em;
+    }
+  }
   div {
     padding: 40;
     @media (max-width: 600px) {
@@ -95,7 +131,7 @@
     font-family: 'Soehne-kraftig';
     color: #FFFFFF;
     line-height: 1.5;
-    font-size: 1.7em;
+    font-size: 1.9em;
 
     @media (max-width: 800px) {
       font-size: 1.5em;

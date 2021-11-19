@@ -1,17 +1,18 @@
-.row.no-margin-bottom
-  .col.s0.m3.l3
-  #note-header.content.col.s12.m9.l6
-    %h1
-      #{@note.title}
-  .col.s0.m0.l3
-.row.no-margin-bottom
-  = haml :_meta_content, locals: {note: @note}
+#note-container
+  .row.no-margin-bottom
+    .col.s0.m3.l3
+    #note-header.content.col.s12.m9.l6
+      %h1
+        #{@note.title}
+    .col.s0.m0.l3
+  .row.no-margin-bottom
+    = haml :_meta_content, locals: {note: @note}
 
-  #note.content.col.s12.m9.l6
-    %span.subhead Posted: #{@note.date}
-    #{@note.content}
-    .divider
-  .col.s0.m0.l3
+    #note.content.col.s12.m9.l6
+      %span.subhead Posted: #{@note.date}
+      #{@note.content}
+      .divider
+    .col.s0.m0.l3
 
-.row#meta-content-mob
-  = haml :_meta_content_mob, locals: {note: @note}
+  .row#meta-content-mob
+    = haml :_meta_content_mob, locals: {note: @note}

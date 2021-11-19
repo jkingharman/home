@@ -1,6 +1,10 @@
-title: cycle city
-date: 16-09-2020
+title: Cycle City
+date: 16-09-2020 16:13:10 UTC
 tags: skating, travel
+count: 756
+time: ~3
+index: true
+index_order: 2
 
 I arrived early into Copenhagen, happy to escape a turbulent flight. The airport metro deposited me at the central station, København H, from where a trip to my airbnb made it clear why biking is so common.
 

@@ -6,19 +6,19 @@
         %ul
           - unless request.path == "/"
             %li
-              %a{href: "/"} HOME
+              %a.skew-forward-on-hover{href: "/"} HOME
 
           - unless request.path == "/about"
             %li
-              %a{href: "/about"} ABOUT
+              %a.skew-forward-on-hover{href: "/about"} ABOUT
 
           - unless request.path == "/scraps"
             %li
-              %a{href: "/scraps"} POSTS
+              %a.skew-forward-on-hover{href: "/scraps"} POSTS
 
           - unless request.path == "/archive"
             %li
-              %a{href: "/archive"} CONTACT
+              %a.skew-forward-on-hover{href: "/archive"} CONTACT
 
           - if @scraps
             - unless @scraps[:upper_bound] >= @scraps[:total]

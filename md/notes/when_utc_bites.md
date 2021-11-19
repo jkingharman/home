@@ -3,6 +3,8 @@ date: 28-06-2020 11:52:56 UTC
 tags: web, work
 count: 512
 time: ~3
+index: true
+index_order: 1
 
 Lately, I’ve been working on a feature to do with time. Many devs learn to fear time. A friend once joked that a simple measure of developer experience is how triggered they get on hearing words like “datetimes, “time zones” and - brace yourself  - “daylight saving time”.
 {: .dropcap}

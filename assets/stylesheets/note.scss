@@ -1,7 +1,11 @@
+#note-container {
+  padding: 20;
+}
+
 #note {
   span.subhead {
     line-height: 1.1rem;
-    font-size: 12px;
+    font-size: 0.7em;
     font-family: "Soehne-buch";
     color: #cdcdcd;
   }
@@ -19,7 +23,7 @@
   .dropcap::first-letter {
     float: left;
     font-size: 3.0rem;
-    line-height: 0.4em;
+    line-height: 0.6em;
     border: 2px solid #ED6C5C;
     border-radius: 2px;
     padding: .7rem .5rem;
@@ -37,7 +41,7 @@
 #meta-content, #meta-content-mob {
   margin: 0;
   margin-right: 40%;
-  font-size: 12px;
+  font-size: 1.2em;
   text-align: right;
 
   a {

@@ -18,9 +18,17 @@
         .col.s12.l6#posts-section
           %div
             %h4 Posts
-            %ul
-              - 10.times do
-                %li content
+            - for_index(@notes).each do |note|
+              .note-overview
+                %ul
+                  %li
+                    .title
+                      %a #{note.title}
+                      %span.date #{note.date}
+
+                  %li
+                    .hook
+                      #{note.content[0...128]}...
 
         .col.s12.l6#contact-section
           %canvas#canvas
