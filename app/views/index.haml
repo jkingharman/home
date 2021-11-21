@@ -13,7 +13,7 @@
           %h6.skew-forward-on-hover
             %a{href: "/about"}
               Read more
-              %span.finger ☟
+              %span.finger ☞
       #section-container.col.s12.m10.offset-m2
         .col.s12.l6#posts-section
           %div
@@ -23,11 +23,11 @@
                 %ul
                   %li
                     .title
-                      %a #{note.title}
+                      %a{href: 'notes/' + "#{note.slug}"} #{note.title}
                       %span.date #{note.date}
 
                   %li
-                    .hook
+                    %a.hook{href: 'notes/' + "#{note.slug}"}
                       #{note.content[0...128]}...
 
         .col.s12.l6#contact-section

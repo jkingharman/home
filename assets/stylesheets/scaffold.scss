@@ -190,14 +190,14 @@
 
   .footnotes {
     padding: 0 50 0 50;
-    font-size: 13px;
+    font-size: 1rem;
 
     ol {
       padding: 0;
     }
 
     p {
-      line-height:  145%;
+      line-height:  160%;
     }
   }
 }
@@ -226,4 +226,8 @@ transform-origin: 0 100%;
 .skew-forward-on-hover:hover, .skew-forward-on-hover:focus, .skew-forward-on-hover:active {
 -webkit-transform: skew(-10deg);
 transform: skew(-10deg);
+}
+
+.middot {
+  content: "\00B7";
 }
