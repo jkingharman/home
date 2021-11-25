@@ -19,6 +19,10 @@ class ApplicationController < Sinatra::Base
     haml :about
   end
 
+  get '/contact' do
+    haml :contact
+  end
+
   get '/archive' do
     @content = MarkdownContent.build(["notes"])
     @tags = @content.map {|content| content.tags }.flatten.compact.uniq.sort
