@@ -1,0 +1,90 @@
+[1mdiff --git a/app/views/index.haml b/app/views/index.haml[m
+[1mindex 9591aeb..b468d66 100644[m
+[1m--- a/app/views/index.haml[m
+[1m+++ b/app/views/index.haml[m
+[36m@@ -5,11 +5,11 @@[m
+       .col.m10#about-section[m
+         %div[m
+           %h4[m
+[31m-            Hi, I'm Jasper[m
+[32m+[m[32m            Hi, I'm Jasper :)[m
+[32m+[m
+             %br[m
+             %br[m
+[31m-            I am an interactive developer based in Boston. I spend my time designing and building web experiences, exploring the depth to which we can leave lasting impacts on users through novel interactions. I am currently working toward my B.S. in Computer Science and Design at Northeastern University.[m
+[31m-[m
+[32m+[m[32m            I work in tech and live in London and Bath. Professionally I build web apps, working cross-stack in Ruby and Javascript. Off the clock I’m mainly into travel, writing, skateboarding, surfing and generative art.[m
+           %h6.skew-forward-on-hover[m
+             %a{href: "/about"}[m
+               Read more[m
+[1mdiff --git a/assets/stylesheets/index.scss b/assets/stylesheets/index.scss[m
+[1mindex eea06f6..5a644b1 100644[m
+[1m--- a/assets/stylesheets/index.scss[m
+[1m+++ b/assets/stylesheets/index.scss[m
+[36m@@ -100,6 +100,10 @@[m
+         font-size: 1em;[m
+         color: #FFFFFF;[m
+       }[m
+[32m+[m
+[32m+[m[32m      @media (max-width: 600px) {[m
+[32m+[m[32m        font-size: 0.8em;[m
+[32m+[m[32m      }[m
+     }[m
+ [m
+     .hook {[m
+[36m@@ -115,6 +119,10 @@[m
+     @media (max-width: 600px) {[m
+       padding: 20;[m
+     }[m
+[32m+[m
+[32m+[m[32m    @media (max-width: 992px) {[m
+[32m+[m[32m      max-width: 500px;[m
+[32m+[m[32m    }[m
+   }[m
+ [m
+   @media (min-width: 992px) {[m
+[36m@@ -204,11 +212,5 @@[m
+ [m
+   @media (max-width: 992px) {[m
+     flex-direction: column;[m
+[31m-[m
+[31m-    #posts-section {[m
+[31m-      order: 2;[m
+[31m-      margin-top: 0.2em;[m
+[31m-      margin-bottom: 0em;[m
+[31m-    }[m
+   }[m
+ }[m
+[1mdiff --git a/assets/stylesheets/scaffold.scss b/assets/stylesheets/scaffold.scss[m
+[1mindex 5039a79..cdd3664 100644[m
+[1m--- a/assets/stylesheets/scaffold.scss[m
+[1m+++ b/assets/stylesheets/scaffold.scss[m
+[36m@@ -210,23 +210,11 @@[m
+   margin-top: 40px;[m
+ }[m
+ [m
+[31m-.skew-forward-on-hover {[m
+[31m-display: inline-block;[m
+[31m-vertical-align: middle;[m
+[31m--webkit-transform: perspective(1px) translateZ(0);[m
+[31m-transform: perspective(1px) translateZ(0);[m
+[31m-box-shadow: 0 0 1px rgba(0, 0, 0, 0);[m
+[31m--webkit-transition-duration: 0.3s;[m
+[31m-transition-duration: 0.3s;[m
+[31m--webkit-transition-property: transform;[m
+[31m-transition-property: transform;[m
+[31m--webkit-transform-origin: 0 100%;[m
+[31m-transform-origin: 0 100%;[m
+[31m-}[m
+[31m-.skew-forward-on-hover:hover, .skew-forward-on-hover:focus, .skew-forward-on-hover:active {[m
+[31m--webkit-transform: skew(-10deg);[m
+[31m-transform: skew(-10deg);[m
+[31m-}[m
+[32m+[m[32m// .skew-forward-on-hover {[m
+[32m+[m[32m// }[m
+[32m+[m[32m// .skew-forward-on-hover:hover, .skew-forward-on-hover:focus, .skew-forward-on-hover:active {[m
+[32m+[m[32m//[m
+[32m+[m[32m// }[m
+ [m
+ .middot {[m
+   content: "\00B7";[m

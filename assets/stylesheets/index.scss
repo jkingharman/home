@@ -100,6 +100,10 @@
         font-size: 1em;
         color: #FFFFFF;
       }
+
+      @media (max-width: 600px) {
+        font-size: 0.8em;
+      }
     }
 
     .hook {
@@ -114,6 +118,10 @@
     padding: 40;
     @media (max-width: 600px) {
       padding: 20;
+    }
+
+    @media (max-width: 992px) {
+      max-width: 500px;
     }
   }
 
@@ -204,11 +212,5 @@
 
   @media (max-width: 992px) {
     flex-direction: column;
-
-    #posts-section {
-      order: 2;
-      margin-top: 0.2em;
-      margin-bottom: 0em;
-    }
   }
 }
