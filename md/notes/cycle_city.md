@@ -7,6 +7,7 @@ index: true
 index_order: 2
 
 I arrived early into Copenhagen, happy to escape a turbulent flight. The airport metro deposited me at the central station, København H, from where a trip to my airbnb made it clear why biking is so common.
+{: .dropcap}
 
 Walking, the first thing you notice is flatness. Like most of Denmark this area was completely pancaked by glaciers last ice age. Next, you see the bike-friendly urban planning. Cyclists flowing along road-side paths are always in view, and sometimes even independent bike tracks like the Nørrebroruten appear. And then you spot the locals. You note the Danes's height and that various cyclist’s legs remind you vaguely of redwoods, able to peddle the city with ease.
 

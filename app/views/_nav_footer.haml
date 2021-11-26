@@ -10,22 +10,14 @@
 
           - unless request.path == "/about"
             %li
-              %a.skew-forward-on-hover{href: "/about"} ABOUT
+              %a.skew-forward-on-hover{href: "/"} ABOUT
 
-          - unless request.path == "/scraps"
+          - unless request.path == "/posts"
             %li
               %a.skew-forward-on-hover{href: "/scraps"} POSTS
 
-          - unless request.path == "/archive"
+          - unless request.path == "/contact"
             %li
-              %a.skew-forward-on-hover{href: "/archive"} CONTACT
+              %a.skew-forward-on-hover{href: "/contact"} CONTACT
 
-          - if @scraps
-            - unless @scraps[:upper_bound] >= @scraps[:total]
-              %li{style: "float: right;"}
-                %a{href: "scraps?page=#{@page + 1}"} next
-
-            - unless @page == 0
-              %li{style: "float: left;"}
-                %a{href: "scraps?page=#{@page - 1}"} back
     .col.s0.m2.l3

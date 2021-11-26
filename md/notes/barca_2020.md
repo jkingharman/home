@@ -1,4 +1,4 @@
-title: bcn
+title: Barca
 date: 28-03-2020 10:30:00 UTC
 tags: skating, travel
 

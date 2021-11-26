@@ -1,0 +1,24 @@
+#note-container
+  .row
+    .col.s0.m3.l3
+    #note-header.about.content.col.s12.m8.l6.offset-m2
+      %h1
+        Posts
+      .note-overview.posts
+        %ul
+          - asc_posted_at(@content).each do |note|
+            %li
+              .title
+                %a{href: 'notes/' + "#{note.slug}"} #{note.title}
+                %span.date #{note.date.split(" ").first}
+
+            -# - unless note.content.length <= 1000
+            -#   %li
+            -#     %a.hook{href: 'notes/' + "#{note.slug}"}
+            -#       #{note.content[0...128]}...
+    .col.s0.m0.l3
+  .row.no-margin-bottom
+
+    #note.content.col.s12.m8.l6.offset-l3.offset-m2
+      .divider
+    .col.s0.m0.l3
