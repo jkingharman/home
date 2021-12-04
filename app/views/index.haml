@@ -10,7 +10,7 @@
             %br
             %br
             I work in tech and live in London and Bath. Professionally I build web apps, mainly using Ruby and JavaScript. Off the clock I'm always down to skateboard, surf or travel. Less often I also like to write or make generative art.
-            
+
           %h6.skew-forward-on-hover
             %a{href: "/about"}
               Read more
@@ -18,7 +18,8 @@
       #section-container.col.s12.m10.offset-m2
         .col.s12.l6#posts-section
           %div
-            %h4 Posts
+            %a{href: 'posts'}
+              %h4 Posts
             - for_index(@notes).each do |note|
               .note-overview
                 %ul
