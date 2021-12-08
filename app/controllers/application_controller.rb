@@ -15,8 +15,8 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/about' do
-    redirect "/"
-    # haml :about
+    # redirect "/"
+    haml :about
   end
 
   get '/contact' do
