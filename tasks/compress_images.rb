@@ -18,12 +18,13 @@ img_dirs.each do |dir|
     Dir.chdir(dir)
     `touch #{base_name}-compress.jpg`
 
-    in_path = File.new(img)
-    out_path = File.new("#{base_name}-compress.jpg")
-    Mozjpeg.compress in_path, out_path, arguments: '-quality 70 -quant-table 2 -notrellis'
+    # in_path = File.new(img)
+    # out_path = File.new("#{base_name}-compress.jpg")
+    # Mozjpeg.compress in_path, out_path, arguments: '-quality 70 -quant-table 2 -notrellis'
 
     # create the blurred version for lazy loading too
     MiniMagick::Tool::Convert.new do |convert|
+      puts 'converting...'
       convert << "#{base_name}-compress.jpg"
       convert.blur("0x100")
       convert << "#{base_name}-compress-blur.jpg"

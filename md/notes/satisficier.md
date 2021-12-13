@@ -6,7 +6,7 @@ time: ~ 3
 
 In Obliquity John Kay recounts the fall of [ICI](https://en.wikipedia.org/wiki/Imperial_Chemical_Industries). ICI was once a top company, but flatlined in 2008. Kay claims this was through changing goals. The company's main goal was long "responsible use of chemistry". But in the 90s profit-maximisation took its place. And then came decline. The moral? Sometimes goals are best chased indirectly. ICI did well when profit was an indirect goal, but not when a direct one.
 {: .dropcap}
-[Herbert Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon) knew all about this. Well before ICI's fall, Simon argued profit-maximisation was impossible and its pursuit harmful. He saw that companies are imperfect -- their rationality limited, like everyone -- and the data they act on partial. And that this means they [satisfice](https://en.wikipedia.org/wiki/Satisficing) rather than maximise when it comes to profit: at best, companies make a profit that's satisfactory and sufficient. A good enough profit.
+[Herbert Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon) knew all about this. Well before ICI's fall, Simon argued profit-maximisation was impossible and its pursuit harmful. He saw that companies are imperfect — their rationality limited, like everyone — and the data they act on partial. And that this means they [satisfice](https://en.wikipedia.org/wiki/Satisficing) rather than maximise when it comes to profit: at best, companies make a profit that's satisfactory and sufficient. A good enough profit.
 
 Simon's observation makes me think: why do people so often try to maximise rather than satisfice in life?
 
@@ -16,11 +16,11 @@ And yet it's not clear they should be, as Simon suggests. Seeking the best can b
 
 But, but, but: so what?
 
-Here you might reply with a yawn -- that maximising has dangers is so obvious as to make my point trivial. But more importantly, you might also say I overstate these dangers. People adapt their preferences to their circumstances, meaning they tend to desire something only if it seems truly achievable. So, most of the time at least, doesn't reality dispose us to satisfice rather than maximise?
+Here you might reply with a yawn — that maximising has dangers is so obvious as to make my point trivial. But more importantly, you might also say I overstate these dangers. People adapt their preferences to their circumstances, meaning they tend to desire something only if it seems truly achievable. So, most of the time at least, doesn't reality dispose us to satisfice rather than maximise?
 
 Maybe. But this fact (if it is that) might not shield us from maximisation's pitfalls as much as you think.
 
-To see why consider aspiration's upward drift. For many, "good enough" is now little different from "the best". Many factors -- like widening higher ed., helicopter parents and [Lake Wobegon effect](https://en.wikipedia.org/wiki/Lake_Wobegon#The_Lake_Wobegon_effect) -- have nudged people to falsely belief they can enter the 99th percentile on many measures. And that suggests the drive to satisfice has in effect become a drive to maximise: good enough just ain't what it used to be.
+To see why consider aspiration's upward drift. For many, "good enough" is now little different from "the best". Many factors — like widening higher ed., helicopter parents and [Lake Wobegon effect](https://en.wikipedia.org/wiki/Lake_Wobegon#The_Lake_Wobegon_effect) — have nudged people to falsely belief they can enter the 99th percentile on many measures. And that suggests the drive to satisfice has in effect become a drive to maximise: good enough just ain't what it used to be.
 
 For this reason, I suspect trying to maximise is common. If I'm right likely we will benefit from a deeper appreciation of maximisation's self-defeating nature, as well as the virtues of satisficing proper.
 
@@ -28,4 +28,4 @@ One big problem with maximising is that it breeds excess precision and mental fi
 
 Satisficing, by contrast, breeds flexibility and thus resilience. Plans for the good enough are often simple and stay useful when the world changes. David Viniar's claim that "we were seeing things that were 25-standard deviation moves, several days in a row" was a maximiser's bleat: his risk-management model optimised under narrow conditions, but then the world changed, and Goldman's balance sheet with it. A simple plan, like "expect the unexpected", might have done better.
 
-And that's my point -- that sometimes simplicity is key to success in a complex world. Often this means we shouldn't gun for best but instead just seek the good enough.
+And that's my point — that sometimes simplicity is key to success in a complex world. Often this means we shouldn't gun for best but instead just seek the good enough.
