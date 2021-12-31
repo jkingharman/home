@@ -7,7 +7,7 @@ module Helpers
     end
 
     def for_index(notes)
-      notes.select {|note| note.index }.sort_by {|note| note.index }.reverse
+      notes.select {|note| note.index }.sort_by {|note| note.index_order }
     end
   end
 end
