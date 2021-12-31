@@ -18,7 +18,7 @@
       #section-container.col.s12.m10.offset-m2
         .col.s12.l6#posts-section
           %div
-            %a{href: 'posts'}
+            %a{href: 'posts?tags='}
               %h4 Posts
             - for_index(@notes).each do |note|
               .note-overview
