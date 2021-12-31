@@ -1,5 +1,15 @@
+#filter {
+  @media (max-width: 600px) {
+    font-size: 1.6rem;
+  }
+  font-size: 2rem;
+  font-family: "Soehne-halbfett";
+}
+
 .content {
   .posts {
+    margin-top: 2rem;
+
     a {
       border-bottom: 0px;
     }

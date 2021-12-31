@@ -17,7 +17,7 @@
         %span Tags
         %br
           - note.tags.each do |tag|
-            %a{href: "/archive?tags=,#{tag}"}
+            %a{href: "/posts?tags=,#{tag}"}
               = tag
             - unless tag == note.tags.last
               %span.middot

@@ -25,6 +25,7 @@ class ApplicationController < Sinatra::Base
 
   get '/posts' do
     @content = MarkdownContent.build(["notes"])
+    @tags = @content.map {|content| content.tags }.flatten.compact.uniq.sort
     haml :posts
   end
 

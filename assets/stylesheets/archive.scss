@@ -9,16 +9,16 @@
     border-radius: 2px;
     margin: 0.2rem;
     padding: 0.1rem 0.5rem 0.1rem 0.5rem;
-    border: 1px solid black;
+    border: 1px solid #ED6C5C;
   }
 
   li > span:hover {
     background-color: black;
-    color: #fff;
+    color: #ED6C5C;
   }
 
   li > span.active {
     background-color: black;
-    color: #fff;
+    color: #ED6C5C;
   }
 }

@@ -4,18 +4,22 @@
     #note-header.about.content.col.s12.m8.l6.offset-m2
       %h1
         Posts
+
+      %h6#filter
+        Filter ☟
+      #tags
+        %ul
+          - @tags.each do |tag|
+            %li
+              %span.tag #{tag}
       .note-overview.posts
         %ul
           - asc_posted_at(@content).each do |note|
-            %li
+            %li.entry{'data-tags': "#{note.tags&.join(", ")}"}
               .title
                 %a{href: 'notes/' + "#{note.slug}"} #{note.title}
                 %span.date #{note.date.split(" ").first}
 
-            -# - unless note.content.length <= 1000
-            -#   %li
-            -#     %a.hook{href: 'notes/' + "#{note.slug}"}
-            -#       #{note.content[0...128]}...
     .col.s0.m0.l3
   .row.no-margin-bottom
 
