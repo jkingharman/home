@@ -74,11 +74,6 @@
 }
 
 #posts-section {
-  @media (max-width: 996px) {
-    margin-top: 0.2rem;
-    order: 2;
-  }
-
   .note-overview {
     padding: 0;
     li {
@@ -164,9 +159,6 @@
 }
 
 #contact-section {
-  @media (max-width: 996px) {
-    order: 1;
-  }
   position: relative;
 
   padding: 0;
