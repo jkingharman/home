@@ -12,9 +12,11 @@
     border: 1px solid #ED6C5C;
   }
 
-  li > span:hover {
-    background-color: black;
-    color: #ED6C5C;
+  @media (hover: hover) {
+    li > span:hover {
+      background-color: black;
+      color: #ED6C5C;
+    }
   }
 
   li > span.active {
