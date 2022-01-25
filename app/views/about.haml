@@ -1,12 +1,29 @@
-.row.no-margin-bottom
-  #about.content.col.s12.m8.offset-m2
-    %img#avatar{src: "/assets/nyc.jpg", style: "height: 100px; border-radius: 0.5px"}
-    %h6.black-text
-      about
-    %p
-      ldn/bath. into coding, skating and all that good stuff :)
-    %p
-      Email:
-      %a{href: "mailto: j.kingharman@googlemail.com"}j.kingharman@googlemail.com
+#note-container
+  .row{style: "margin-bottom: 40px;"}
+    .col.s0.m3.l3
+    #note-header.about.content.col.s12.m8.l6.offset-m2
+      %h1
+        About
+      %img{src: "https://via.placeholder.com/1000", style: "width: 100%;"}
+    .col.s0.m0.l3
+  .row.no-margin-bottom
 
-    .divider
+    #note.content.col.s12.m8.l6.offset-l3.offset-m2
+      %span.subhead Last updated: 04-12-2021 20:14:59 UTC
+      %p
+        Hi, my name's Jasper.
+      %p
+        I’m a coder, and code for money, but frankly I'd accept acclaim or really good pizza as payment too.
+        I like to skate, surf, write, joke, travel, and make stupid but stupidly fun generative art.
+      %p
+        This site is basically my official, OG presence on the web. It's a tiny collection of blog posts I've
+        written since 2015 (I average around 500 words a year, productivity gurus eat your heart out) plus photos.
+        I used to write about politics and psychology but gave up all that. Nowadays, it's usually
+        about travel or what's annoyed me in tech.
+      %p
+        Speaking of tech, you're reading this thanks to the power of a Ruby/Sinatra stack, hosted on Heroku, and using CloudFlare as a CDN.
+        The site's pages are made of pure, organic, free-range HTML and CSS with a dash of JavaScript. Everything is deployed automatically by CI as code lands in
+        its main branch on my <a href="https://github.com/jkingharman">GitHub account</a>. Happy days!
+
+      .divider
+    .col.s0.m0.l3

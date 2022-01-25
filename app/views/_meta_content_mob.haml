@@ -1,0 +1,24 @@
+.col.s12.hide-on-med-and-up
+  %div
+    - unless note.count.nil?
+      %p
+        %span Count
+        %br
+        = note.count.to_s + " words"
+
+    - unless note.time.nil?
+      %p
+        %span Time
+        %br
+        = note.time + " minutes"
+
+    - unless note.tags.nil?
+      %p
+        %span Tags
+        %br
+          - note.tags.each do |tag|
+            %a{href: "/posts?tags=,#{tag}"}
+              = tag
+            - unless tag == note.tags.last
+              %span.middot
+                &#183;

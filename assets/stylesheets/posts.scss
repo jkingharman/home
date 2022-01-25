@@ -1,0 +1,36 @@
+#filter {
+  @media (max-width: 600px) {
+    font-size: 1.6rem;
+  }
+  font-size: 2rem;
+  font-family: "Soehne-halbfett";
+}
+
+.content {
+  .posts {
+    margin-top: 2rem;
+
+    a {
+      border-bottom: 0px;
+    }
+
+    p {
+      max-width: 80%;
+      margin: 0;
+      font-size: 0.8em;
+    }
+
+    .title {
+      font-family: 'Soehne-halbfett';
+      font-size: 1em;
+
+      .date {
+        color: #cdcdcd;
+        margin-left: 3px;
+        font-family: 'Soehne-kraftig';
+        font-size: 0.6em;
+        font-style: italic;
+      }
+    }
+  }
+}

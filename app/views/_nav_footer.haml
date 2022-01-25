@@ -1,19 +1,23 @@
 %footer.page-footer
   .row
-    .col.s12.m8.offset-m2
+    .col.s0.m2.l3
+    .col.s12.m8.l6
       %nav.z-depth-0.center
         %ul
-          - unless request.path == "/about"
-            %li
-              %a{href: "/about"} about
-
-          %li
-            %a{href: "https://github.com/jkingharman"} github
-
           - unless request.path == "/"
             %li
-              %a{href: "/"} home
+              %a.skew-forward-on-hover{href: "/"} HOME
 
-          - unless request.path == "/fragments"
+          - unless request.path == "/about"
             %li
-              %a{href: "/fragments"} fragments
+              %a.skew-forward-on-hover{href: "/about"} ABOUT
+
+          - unless request.path == "/posts"
+            %li
+              %a.skew-forward-on-hover{href: "/posts"} POSTS
+
+          - unless request.path == "/contact"
+            %li
+              %a.skew-forward-on-hover{href: "/contact"} CONTACT
+
+    .col.s0.m2.l3

@@ -1,36 +1,67 @@
+#note-container {
+  padding: 20;
+}
+
 #note {
-  padding-top: 50px;
   span.subhead {
-    font-size: 10px;
-    color: #999;
+    line-height: 1.1rem;
+    font-size: 0.7em;
+    font-family: "Soehne-buch";
+    color: #cdcdcd;
   }
 
   p {
-    color: #424241;
-    line-height: 18px;
-
     img {
       max-width: 100%;
     }
   }
 
+  p:first-of-type {
+    margin-top: 0.8rem;
+  }
+
+  .dropcap::first-letter {
+    float: left;
+    font-size: 3.0rem;
+    line-height: 0.6em;
+    border: 2px solid #ED6C5C;
+    border-radius: 2px;
+    padding: .7rem .5rem;
+    margin: 2px 8px 0 0;
+  }
+
+  @media (max-width: 767.98px) {
+    .dropcap::first-letter {
+      line-height: 0.5em;
+    }
+  }
+
 }
 
-pre {
-    background: #f6f6f6;
-    font-family: Monaco, "Lucida Console", "Bitstream Vera Sans Mono", Courier, monospace;
-    font-size: 0.75rem;
-    line-height: 1.4em;
-    padding: 15px;
-}
+#meta-content, #meta-content-mob {
+  margin: 0;
+  margin-right: 40%;
+  font-size: 1.2em;
+  text-align: right;
 
-.language-ruby {
-      background: #f6f6f6;
-}
+  a {
+    color: rgba(0, 0, 0, 0.87);
+  }
 
-.hljs {
-    display: block;
-    overflow-x: auto;
-    /* background: #fdf6e3; */
-    color: #657b83;
+  a:hover {
+    border-bottom: 1px solid #222; 
+  }
+
+  p {
+    line-height: 1.1rem;
+    span {
+      font-family: "Soehne-halbfett";
+    }
+
+    font-family: "Soehne-buch";
+  }
+
+  p:first-of-type {
+    margin-top: 0
+  }
 }

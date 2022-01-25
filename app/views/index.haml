@@ -1,17 +1,47 @@
 .row.no-margin-bottom
+<<<<<<< HEAD
   #index.content.col.s12.m8.offset-m2
     %h6.black-text
       jkh
     %div
       %p skater, developer
+=======
+  #index
+    .row.no-margin-bottom
+      = haml :_sidenav
+      .col.m10#about-section
+        %div
+          %h4
+            Hi, I'm Jasper :)
+>>>>>>> 74180eb06f37d9650f80da81328afec823601f53
 
-    .divider
-    #notes
-      %ul
-        - asc_posted_at(@notes).each do |note|
-          - unless note.slug == "code_sample"
-            %li
-              %span #{note.date}
-              %a{href: "notes/#{note.slug}"} #{note.title}
+            %br
+            %br
+            I work in tech and live in London and Bath. Professionally I build web apps, mainly using Ruby and JavaScript. Off the clock I'm always down to skateboard, surf or travel. Less often I also like to write or make generative art.
 
-    .divider
+          %h6.skew-forward-on-hover
+            %a{href: "/about"}
+              Read more
+              %span.finger ☞
+      #section-container.col.s12.m10.offset-m2
+        .col.s12.l6#posts-section
+          %div
+            %a{href: 'posts?tags='}
+              %h4 Posts
+            - for_index(@notes).each do |note|
+              .note-overview
+                %ul
+                  %li
+                    .title
+                      %a{href: 'notes/' + "#{note.slug}"} #{note.title}
+                      %span.date #{note.date}
+
+                  %li
+                    %a.hook{href: 'notes/' + "#{note.slug}"}
+                      #{note.content[0...128]}...
+
+        .col.s12.l6#contact-section
+          %canvas#canvas
+          %h1#overlay
+            %a{href: "/contact"}
+              Say hi

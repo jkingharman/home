@@ -4,65 +4,170 @@
 
   }
 
-
   html, body {
     height: 100%;
     width: 100%;
-    font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
+    font-family: "Calluna", "Helvetica Neue", Helvetica;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   body {
-    font-size: 13px;
+    font-size: 1.2em;
     line-height: 1.7em;
-    display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
   }
 
   main {
     flex: 1 0 auto;
   }
 
+  #navlinks {
+    text-align: center;
+    @media (max-width: 600px) {
+      display: none;
+    }
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 8.333%;
+    bottom: 0;
+
+    a {
+      font-size: 1em;
+      margin-bottom: 2px;
+      letter-spacing: 0.3px;
+      display: block;
+      font-family: "Soehne-halbfett";
+      color: rgba(0,0,0,.87);
+
+      @media (max-width: 800px) {
+        font-size: 0.8em;
+        margin-bottom: 0.5px;
+      }
+    }
+  }
+
   nav {
     background-color: transparent;
 
+    ul {
+      display: inline-block;
+    }
+
     li > a {
-      color: #0822e1;
-      padding-left: 0px;
-      font-size: 13px;
-      text-decoration: underline;
-      font-weight: 400;
+      font-size: 1em;
+      margin-bottom: 2px;
+      letter-spacing: 0.3px;
+      display: block;
+      font-family: "Soehne-halbfett";
+      color: rgba(0,0,0,.87);
     }
 
     li > a:hover {
       text-decoration: none;
       background-color: transparent;
+      border-bottom: none;
     }
   }
 
   blockquote {
+    border-left: 10px solid #ccc;
     margin: 10px 0;
     padding-left: 1.5em;
-    border-left: transparent;
-    font-size: 11px;
+    // border-left: transparent;
   }
-
-  blockquote:first-of-type {
-  padding-top: 10px;
-}
 
   .page-footer {
     padding: 0px;
     min-width: 300px;
     background-color: transparent;
+
+    .col {
+      padding: 0;
+    }
+  }
+}
+
+#logo {
+  fill: #ED6C5C;
+}
+
+#meta-content, #meta-content-mob {
+  margin: 0;
+  margin-right: 40%;
+  font-size: 12px;
+  text-align: right;
+
+  p {
+    line-height: 1.2rem;
+    span {
+      font-size: 1.1em;
+      font-family: "Soehne-halbfett";
+    }
+
+    font-family: "Soehne-buch";
+  }
+
+  p:first-of-type {
+    margin-top: 0
+  }
+}
+
+#meta-content-mob {
+  text-align: left;
+  // @media (min-width: 576px) {
+  //   display: none;
+  // }
+}
+
+#sidenav {
+  padding: 0;
+}
+
+#side {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  @media (max-width: 600px) {
+    padding: 0;
+  }
+  @media (min-width: 600px) {
+    position: sticky;
+    top: 0;
+  }
+}
+
+.content.about {
+  h1 {
+    border-bottom: none;
+    margin-bottom: 0.2em;
   }
 }
 
 .content {
   min-width: 300px;
 
-  h6 {
-    font-weight: 700;
+  h1 {
+    font-family: "Soehne-halbfett";
+    border-bottom: 10px solid #000;
+    padding-bottom: 20px;
+    margin-bottom: 0.7em;
+    margin-top: 1em;
+    font-size: 4.5em;
+
+    @media (max-width: 992px) {
+      margin-top: 1em;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 3.5rem;
+      margin-top: 1.5em;
+    }
   }
 
   strong {
@@ -70,11 +175,37 @@
   }
 
   a {
-    color: #0822e1;
+    color: #222;
+    border-bottom: 1px solid #222;
+  }
+
+  a:hover {
+    border-bottom: none;
   }
 
   p {
-    color:  #333;
+    hyphens: auto;
+    color:#222222;
+    line-height: 165%;
+    margin-bottom: 1.5rem;
+  }
+
+  .divider {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .footnotes {
+    padding: 0 50 0 50;
+    font-size: 1rem;
+
+    ol {
+      padding: 0;
+    }
+
+    p {
+      line-height:  160%;
+    }
   }
 }
 
@@ -82,6 +213,30 @@
   margin-bottom: 0px;
 }
 
-#about {
-  padding-top: 50px;
+.margin-top {
+  margin-top: 40px;
+}
+
+.skew-forward-on-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform-origin: 0 100%;
+  -transform-origin: 0 100%;
+}
+.skew-forward-on-hover:hover, .skew-forward-on-hover:focus, .skew-forward-on-hover:active {
+  -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+}
+
+
+
+.middot {
+  content: "\00B7";
 }
