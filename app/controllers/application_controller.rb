@@ -5,6 +5,11 @@ class ApplicationController < Sinatra::Base
   # set folder for templates to ../views, but make the path absolute
   set :views, File.expand_path('../../views', __FILE__)
 
+  # Haml 6+ escapes `=` output by default; these templates render trusted,
+  # pre-rendered HTML (partials, Markdown), so restore Haml 5's non-escaping
+  # default. Explicit escaping is still available via `&=`.
+  set :haml, escape_html: false
+
   not_found do
     redirect "/"
   end

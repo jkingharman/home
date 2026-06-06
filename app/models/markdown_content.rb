@@ -1,3 +1,6 @@
+require "ostruct"
+require "yaml"
+
 class MarkdownContent < Sinatra::Base
   set :root, File.expand_path('../../..', __FILE__)
 

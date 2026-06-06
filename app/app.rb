@@ -7,5 +7,3 @@ require_relative 'helpers/sort_helpers'
 require_relative 'models/markdown_content'
 
 require_relative 'presenters/scrap'
-
-require_relative '../lib/assets'

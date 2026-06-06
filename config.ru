@@ -1,19 +1,10 @@
-require 'bundler'
+require "bundler"
 Bundler.require
 
-require 'rubygems'
-require 'sass/plugin/rack'
-require 'sinatra/base'
-require 'sprockets'
-require 'sass'
+require "sinatra/base"
 
-Sass::Plugin.options[:style] = :compressed
-use Sass::Plugin::Rack
+require_relative "app/app.rb"
 
-# Load app
-require_relative 'app/app.rb'
-
-use Assets
 use NotesController
 use ScrapsController
 run ApplicationController

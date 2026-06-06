@@ -1,28 +1,17 @@
-source 'http://rubygems.org'
+source "https://rubygems.org"
 
-ruby '2.5.1'
+ruby "3.4.9"
 
-# App Stack
-gem 'foreman'
-gem 'haml'
-gem 'kramdown' # markdown processing
-gem 'kramdown-syntax-coderay'
-gem 'rouge'
-gem 'rest-client'
-gem 'sass'
-gem 'sinatra'
-gem 'sinatra-router'
-gem 'pry'
-
-# For asset pipeline functionality
-gem 'sprockets'
-gem 'uglifier'
-
-# For images
-gem 'mozjpeg'
-gem 'mini_magick'
+# App: renders Markdown notes through Haml templates. Used at build time by
+# build.rb to freeze the site to static HTML.
+gem "sinatra"
+gem "haml"
+gem "kramdown" # Markdown -> HTML
+gem "rouge"    # syntax highlighting (kramdown's default highlighter)
+gem "ostruct"      # leaving Ruby's default gems in 4.0; used by MarkdownContent
+gem "mini_magick"  # gallery image variants at build time, see tasks/compress_images.rb
 
 group :development do
-  gem 'pry'
-  gem 'shotgun'
+  gem "sassc"   # one-off SCSS -> CSS compilation, see tasks/compile_assets.rb
+  gem "webrick" # local preview server, see tasks/preview.rb
 end

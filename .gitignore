@@ -1,0 +1,9 @@
+# Generated static site (produced by build.rb, deployed by CI)
+/build/
+
+# Bundler
+/.bundle/
+/vendor/bundle/
+
+# macOS
+.DS_Store
