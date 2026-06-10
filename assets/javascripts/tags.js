@@ -1,68 +1,46 @@
-var selectedTags = []
+// Tag filter for the posts page. Selected tags are mirrored to the URL
+// (?tags=a,b) so a filtered view survives back/forward and can be linked.
 var tagElements = document.getElementsByClassName("tag")
+var selectedTags = []
 
-// Toggles the visibility of content elements depending on whether their tag is selected (show) or unselected (hide).
-var hideAnyContentNotSelected = function(e) {
-  var contentElements = document.getElementsByClassName("entry")
-  for(var i=0;i<contentElements.length;i++){
-    var contentElement = contentElements[i]
-    var contentElementTags = contentElement.getAttribute("data-tags").split(",").map(function(e) { return e.trim() } )
-    if ((selectedTags.length == 0 || selectedTags.length == 1) || selectedTags.some(function(e) { return contentElementTags.includes(e) })) {
-      contentElement.classList.remove("hide")
-    } else {
-      contentElement.classList.add("hide")
-    }
+var parseTagsFromURL = function() {
+  var query = window.location.search.split("tags=")[1]
+  return query ? query.split(",").filter(function(tag) { return tag !== "" }) : []
+}
+
+var render = function() {
+  var entries = document.getElementsByClassName("entry")
+
+  for (var i = 0; i < entries.length; i++) {
+    var entryTags = entries[i].getAttribute("data-tags").split(",").map(function(tag) { return tag.trim() })
+    var visible = selectedTags.length === 0 ||
+      selectedTags.some(function(tag) { return entryTags.includes(tag) })
+    entries[i].classList.toggle("hide", !visible)
+  }
+
+  for (var i = 0; i < tagElements.length; i++) {
+    tagElements[i].classList.toggle("active", selectedTags.includes(tagElements[i].textContent))
   }
 }
 
-var makeAnySelectedTagElementsActive = function(e) {
-  for(var i=0;i<tagElements.length;i++){
-    var tagElement = tagElements[i]
-
-    if (selectedTags.length == 0 || !selectedTags.includes(tagElement.textContent)) {
-      tagElement.classList.remove("active")
-    } else {
-      tagElement.classList.add("active")
-    }
-  }
-}
-
-var deconstructURL = function(e) {
-  if (window.location.href.split("tags=")[1] == undefined) {
-    selectedTags = []
-  } else {
-    selectedTags = window.location.href.split("tags=")[1].split(",")
-  }
-}
-
-// Click handler that updates the currently selected tags by pushing to or poping off an array
-// On every tag update it will then invoke #hideAnyContentNotSelectedFn to also update content visibility.
-var addOrRemoveSelectedTag = function(e) {
+var toggleTag = function(e) {
   var tag = e.target.textContent
 
   if (selectedTags.includes(tag)) {
-    selectedTags = selectedTags.filter(function(e) { return e !== tag })
+    selectedTags = selectedTags.filter(function(t) { return t !== tag })
   } else {
     selectedTags.push(tag)
   }
 
-  hideAnyContentNotSelected()
-  makeAnySelectedTagElementsActive()
-  window.history.pushState({}, "archive", "?tags=" + selectedTags.toString())
-};
-
-for(var i=0;i<tagElements.length;i++){
-  tagElements[i].addEventListener("click", addOrRemoveSelectedTag);
+  render()
+  window.history.pushState({}, "", selectedTags.length ? "?tags=" + selectedTags.join(",") : window.location.pathname)
 }
 
-window.onload = function(e) {
-  deconstructURL()
-  hideAnyContentNotSelected()
-  makeAnySelectedTagElementsActive()
+for (var i = 0; i < tagElements.length; i++) {
+  tagElements[i].addEventListener("click", toggleTag)
 }
 
-window.onpopstate = function(e) {
-  deconstructURL()
-  hideAnyContentNotSelected()
-  makeAnySelectedTagElementsActive()
+window.onload = window.onpopstate = function() {
+  selectedTags = parseTagsFromURL()
+  render()
 }
