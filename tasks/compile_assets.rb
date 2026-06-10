@@ -23,8 +23,7 @@ SCRIPT = File.join(ROOT, "assets", "javascripts")
 FileUtils.mkdir_p(OUT)
 
 # --- CSS ---------------------------------------------------------------------
-# app.css was the Sprockets manifest; skip it and build from the rest.
-css = Dir.children(STYLES).sort.reject { |f| f == "app.css" }.map do |file|
+css = Dir.children(STYLES).sort.map do |file|
   path = File.join(STYLES, file)
   if file.end_with?(".scss")
     SassC::Engine.new(File.read(path), style: :compressed).render
@@ -37,10 +36,9 @@ File.write(File.join(OUT, "app.css"), css)
 puts "wrote public/assets/app.css"
 
 # --- JS ----------------------------------------------------------------------
-# app.js was the manifest (`//= require_tree .`); skip it and concatenate the
-# rest in alphabetical order, dropping any leftover Sprockets directive lines.
-js = Dir.children(SCRIPT).sort.reject { |f| f == "app.js" }.map do |file|
-  File.read(File.join(SCRIPT, file)).gsub(/^\s*\/\/=.*$/, "")
+# Concatenate in alphabetical order.
+js = Dir.children(SCRIPT).sort.map do |file|
+  File.read(File.join(SCRIPT, file))
 end.join("\n")
 
 File.write(File.join(OUT, "app.js"), js)
