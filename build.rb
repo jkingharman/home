@@ -75,6 +75,11 @@ FileUtils.cp_r(File.join(ROOT, "assets/images/."), File.join(BUILD, "assets"))
 # Stop GitHub Pages from running its own Jekyll build over our finished HTML.
 File.write(File.join(BUILD, ".nojekyll"), "")
 
+# Bind the custom domain on every deploy. The Actions-based Pages flow serves
+# the artifact verbatim and does not inject a CNAME, so without this file each
+# publish drops the domain binding and restarts TLS cert provisioning.
+File.write(File.join(BUILD, "CNAME"), "www.jaskh.net\n")
+
 # Drop any macOS cruft that got copied in.
 Dir.glob(File.join(BUILD, "**", ".DS_Store")).each { |f| File.delete(f) }
 
