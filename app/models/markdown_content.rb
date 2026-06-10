@@ -1,13 +1,14 @@
 require "ostruct"
 require "yaml"
+require "kramdown"
 
-class MarkdownContent < Sinatra::Base
-  set :root, File.expand_path('../../..', __FILE__)
+class MarkdownContent
+  ROOT = File.expand_path("../..", __dir__)
 
   def self.build(types, slug = nil)
     content = []
     types.each do |type|
-      path = "#{settings.root}" + "/md/#{type}/" + "#{slug ? slug : '*'}" + ".md"
+      path = "#{ROOT}/md/#{type}/#{slug ? slug : '*'}.md"
       Dir.glob(path) {|file| content << build_struct(file, type) }
     end
     content

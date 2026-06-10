@@ -4,19 +4,19 @@
     .col.s12.m8.l6
       %nav.z-depth-0.center
         %ul
-          - unless request.path == "/"
+          - unless current_path == "/"
             %li
               %a.skew-forward-on-hover{href: "/"} HOME
 
-          - unless request.path == "/about"
+          - unless current_path == "/about"
             %li
               %a.skew-forward-on-hover{href: "/about"} ABOUT
 
-          - unless request.path == "/posts"
+          - unless current_path == "/posts"
             %li
               %a.skew-forward-on-hover{href: "/posts"} POSTS
 
-          - unless request.path == "/contact"
+          - unless current_path == "/contact"
             %li
               %a.skew-forward-on-hover{href: "/contact"} CONTACT
 

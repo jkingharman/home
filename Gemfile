@@ -2,9 +2,8 @@ source "https://rubygems.org"
 
 ruby "3.4.9"
 
-# App: renders Markdown notes through Haml templates. Used at build time by
-# build.rb to freeze the site to static HTML.
-gem "sinatra"
+# Build: build.rb renders the Markdown notes through Haml templates to static
+# HTML — no web framework involved.
 gem "haml"
 gem "kramdown" # Markdown -> HTML
 gem "rouge"    # syntax highlighting (kramdown's default highlighter)

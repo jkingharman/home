@@ -1,7 +1,7 @@
 # Home #
 
-My personal site. A little Sinatra-based blogging engine that renders Markdown
-notes through Haml templates. It is built to **static HTML** and served from
+My personal site. A small static site generator that renders Markdown notes
+through Haml templates. It is built to **static HTML** and served from
 GitHub Pages — there is no running server in production.
 
 ## Writing a post
@@ -27,7 +27,9 @@ bundle exec ruby build.rb        # renders the whole site into ./build
 bundle exec ruby tasks/preview.rb   # preview at http://localhost:8000
 ```
 
-`build.rb` boots the Sinatra app in-process and freezes every page to flat HTML.
+`build.rb` renders each page (one per Markdown note, plus the index/about/
+contact/posts pages) through the Haml templates in `app/views` and writes flat
+HTML files. `lib/renderer.rb` is the whole rendering engine.
 
 ## Assets
 

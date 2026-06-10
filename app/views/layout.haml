@@ -15,7 +15,7 @@
       %header
       %main
         = yield
-        - unless request.path == "/"
+        - unless current_path == "/"
           = haml :_nav_footer
       %script{async: :defer, src: "https://cdn.simpleanalytics.io/hello.js"}
       %noscript
