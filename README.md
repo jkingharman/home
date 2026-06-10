@@ -1,8 +1,8 @@
 # Home #
 
 My personal site. A small static site generator that renders Markdown notes
-through Haml templates. It is built to **static HTML** and served from
-GitHub Pages — there is no running server in production.
+through Haml templates. It is built to static HTML and served from
+GitHub Pages.
 
 ## Writing a post
 
