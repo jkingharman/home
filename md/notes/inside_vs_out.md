@@ -10,13 +10,13 @@ The other day, I was reminded of this when talking to a young entrepreneur. He w
 
 How calculated though?
 
-What interested me about my friend's reply was what it lacked. Missing was the thing economists see as most [relevant](https://en.wikipedia.org/wiki/Reference_class_forecasting) here: data about the world beyond self. Market conditions, regulatory backdrop, competitor's acts — the outcome of my friend's startup depends as much on these as anything he does. Probably more, in fact. By assessing his odds using data in front of his nose only, my friend had neglected this. And as a result, he was very likely too optimistic about his startup's future.
+What interested me about my friend's reply was what it lacked. Missing was the thing economists see as most [relevant](https://en.wikipedia.org/wiki/Reference_class_forecasting) here: data about the world beyond self. Market conditions, regulatory backdrop, competitors' acts — the outcome of my friend's startup depends as much on these as anything he does. Probably more, in fact. By assessing his odds using data in front of his nose only, my friend had neglected this. And as a result, he was very likely too optimistic about his startup's future.
 
 My friend's mistake was to take the inside view — one way we can predict stuff.
 
 As Michael Mauboussin discusses ([here](https://www.michaelmauboussin.com/excerpts/TTexcerpt.pdf)), the inside view is people's default way to forecast. Its essence: predicting stuff largely on the basis of perceptions about yourself. A few data points and positive illusions are the only inputs in such forecasts, usually. And so the forecasts themselves tend to be overoptimistic.
 
-Lots of undue economic optimism for example is traceable to inside-view forecasts. The ubiquity of the [planning fallacy](https://web.mit.edu/curhan/www/docs/Articles/biases/67_J_Personality_and_Social_Psychology_366,_1994.pdf), [excess entry](https://www.jstor.org/stable/116990?seq=1#page_scan_tab_contents) and an [overactive](https://www.nber.org/papers/w22750) M&A market are all partly caused by defaulting to that view.
+Lots of undue economic optimism for example is traceable to inside-view forecasts. The ubiquity of the [planning fallacy](https://web.mit.edu/curhan/www/docs/Articles/biases/67_J_Personality_and_Social_Psychology_366,_1994.pdf), [excess entry](https://www.jstor.org/stable/116990?seq=1#page_scan_tab_contents) and an [overactive](https://www.nber.org/papers/w22750) M&A market are all partly caused by defaulting to that view.
 
 This poses the question: can we correct for such forecasts? In theory, yeah. Just take the outside view.
 

@@ -10,7 +10,7 @@ In Obliquity John Kay recounts the fall of [ICI](https://en.wikipedia.org/wiki/I
 
 Simon's observation makes me think: why do people so often try to maximise rather than satisfice in life?
 
-Profit-maximisation is hardly the only example of this. Premature optimisation in tech is another one. So too is public policy aiming to maximise well-being. Attempts to maximise are popular.
+Profit-maximisation is hardly the only example of this. Premature optimisation in tech is another one. So too is public policy aiming to maximise well-being. Attempts to maximise are popular.
 
 And yet it's not clear they should be, as Simon suggests. Seeking the best can bring predictably bad outcomes. Investors trying to maximise returns usually do [worse](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2528149) than [conservative ones](https://www.investorschronicle.co.uk/2015/02/23/comment/chris-dillow/the-best-vs-the-good-MHsIVh2kpaufJSgbGgcDqO/article.html). Hedonists trying to maximise happiness often run a brutal treadmill. And we all know someone unhappily single because only "the one" will do. As the old proverb reminds us, perfection is the enemy of the good.
 
@@ -20,11 +20,11 @@ Here you might reply with a yawn — that maximising has dangers is so obvious a
 
 Maybe. But this fact (if it is that) might not shield us from maximisation's pitfalls as much as you think.
 
-To see why consider aspiration's upward drift. For many, "good enough" is now little different from "the best". Many factors — like widening higher ed., helicopter parents and [Lake Wobegon effect](https://en.wikipedia.org/wiki/Lake_Wobegon#The_Lake_Wobegon_effect) — have nudged people to falsely belief they can enter the 99th percentile on many measures. And that suggests the drive to satisfice has in effect become a drive to maximise: good enough just ain't what it used to be.
+To see why consider aspiration's upward drift. For many, "good enough" is now little different from "the best". Many factors — like widening higher ed., helicopter parents and the [Lake Wobegon effect](https://en.wikipedia.org/wiki/Lake_Wobegon#The_Lake_Wobegon_effect) — have nudged people to falsely believe they can enter the 99th percentile on many measures. And that suggests the drive to satisfice has in effect become a drive to maximise: good enough just ain't what it used to be.
 
-For this reason, I suspect trying to maximise is common. If I'm right likely we will benefit from a deeper appreciation of maximisation's self-defeating nature, as well as the virtues of satisficing proper.
+For this reason, I suspect trying to maximise is common. If I'm right, likely we will benefit from a deeper appreciation of maximisation's self-defeating nature, as well as the virtues of satisficing proper.
 
-One big problem with maximising is that it breeds excess precision and mental fixity. Maximisers set a precise best outcome, plan direct steps to that outcome, and then work rigidly towards it. But such delicate plans usually fall prey to uncertainty. (James Scott's *[Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State)* has loads of examples of this.)
+One big problem with maximising is that it breeds excess precision and mental fixity. Maximisers set a precise best outcome, plan direct steps to that outcome, and then work rigidly towards it. But such delicate plans usually fall prey to uncertainty. (James Scott's *[Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State)* has loads of examples of this.)
 
 Satisficing, by contrast, breeds flexibility and thus resilience. Plans for the good enough are often simple and stay useful when the world changes. David Viniar's claim that "we were seeing things that were 25-standard deviation moves, several days in a row" was a maximiser's bleat: his risk-management model optimised under narrow conditions, but then the world changed, and Goldman's balance sheet with it. A simple plan, like "expect the unexpected", might have done better.
 
