@@ -22,11 +22,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # ImageMagick is preinstalled on ubuntu runners, but pin it explicitly so
-      # gallery image generation (tasks/compress_images.rb) can't silently break.
-      - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
-
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true # runs bundle install + caches gems

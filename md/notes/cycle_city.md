@@ -18,9 +18,9 @@ Lucky I guess, then, that I had no such plans - though I did want to skate the c
 In any city, great skate spots are rare, often far apart, and you want to hit a decent number in a day. This compels skaters to find the shortest path between spots - to solve a kind of intra-city [TSP](https://en.wikipedia.org/wiki/Travelling_salesman_problem), the Travelling Skater Problem™. Though we have an idiot-savant-like ability for doing this, it's nice to not bother. One of Copenhagen's pluses is that it frees you from this compulsion. The cycling network always gets you where you want to go quick enough.
 
 <div class="row">
-  <img class="col s4" style="width: %100; padding: 2" src="../assets/copenhagen/biking-compress-blur.jpg">
-  <img class="col s4" style="width: %100; padding: 2" src="../assets/copenhagen/water-compress-blur.jpg">
-  <img class="col s4" style="width: %100; padding: 2" src="../assets/copenhagen/ice-compress-blur.jpg">
+  <img class="col s4" style="width: %100; padding: 2" src="../assets/copenhagen/biking-compress.jpg" loading="lazy">
+  <img class="col s4" style="width: %100; padding: 2" src="../assets/copenhagen/water-compress.jpg" loading="lazy">
+  <img class="col s4" style="width: %100; padding: 2" src="../assets/copenhagen/ice-compress.jpg" loading="lazy">
 </div>
 
 And why hurry when the journey’s so good? Copenhagen is a nice city :)) In the summer weather it reminded me of Bristol strangely - busy but not rushed, green and watery. Mainly I hung in Vesterbro and Nørrebro, where I was introduced to the famous uniformity of Danish architecture. Most buildings in this area seem to take their stylistic cue from some IKEA-inspired school of architecture: flat roofing, stucco walls, brick and concrete rule everywhere. The odd showplace building is weirdly shaped or coloured, but overall the aesthetic is harmonious. I liked the builds in general but suspected some were kitschy. A wrong turn deepened my suspicion. Lost, I walked into an area resembling a Playmobil city block I once had, only life-size, as if now intended for the children of Norse gods.

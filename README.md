@@ -19,6 +19,20 @@ tags: travel
 Commit and push to `master`. GitHub Actions rebuilds and deploys automatically
 (see `.github/workflows/deploy.yml`).
 
+### Adding photos
+
+Put a `<div class="gallery">` in the note's Markdown, drop full-resolution
+`.jpg` photos into `assets/images/<note-slug>/`, then:
+
+```
+bundle exec ruby tasks/compress_images.rb   # needs ImageMagick
+```
+
+This writes a `<name>-compress.jpg` next to each photo. Commit the variants
+and delete the originals — only `-compress.jpg` files are deployed. The
+gallery picks up every variant in the folder automatically, rendered with
+native lazy loading (`loading="lazy"`).
+
 ## Building locally
 
 ```

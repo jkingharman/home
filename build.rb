@@ -17,11 +17,6 @@ require_relative "lib/renderer"
 ROOT  = File.expand_path(__dir__)
 BUILD = File.join(ROOT, "build")
 
-# Generate compressed + blurred variants for any new gallery photos before
-# rendering, so the presenter picks up the -compress-blur placeholders.
-require_relative "tasks/compress_images"
-CompressImages.run
-
 notes = MarkdownContent.build(["notes"])
 tags  = notes.map {|note| note.tags }.flatten.compact.uniq.sort
 
