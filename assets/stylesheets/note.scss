@@ -41,7 +41,7 @@
 #meta-content, #meta-content-mob {
   margin: 0;
   margin-right: 40%;
-  font-size: 1.2em;
+  font-size: 0.8rem;
   text-align: right;
 
   a {
@@ -49,12 +49,13 @@
   }
 
   a:hover {
-    border-bottom: 1px solid #222; 
+    border-bottom: 1px solid #222;
   }
 
   p {
-    line-height: 1.1rem;
+    line-height: 1.2rem;
     span {
+      font-size: 1.1em;
       font-family: "Soehne-halbfett";
     }
 
@@ -64,4 +65,8 @@
   p:first-of-type {
     margin-top: 0
   }
+}
+
+#meta-content-mob {
+  text-align: left;
 }

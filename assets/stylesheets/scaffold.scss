@@ -113,34 +113,6 @@
   fill: #ED6C5C;
 }
 
-#meta-content, #meta-content-mob {
-  margin: 0;
-  margin-right: 40%;
-  font-size: 12px;
-  text-align: right;
-
-  p {
-    line-height: 1.2rem;
-    span {
-      font-size: 1.1em;
-      font-family: "Soehne-halbfett";
-    }
-
-    font-family: "Soehne-buch";
-  }
-
-  p:first-of-type {
-    margin-top: 0
-  }
-}
-
-#meta-content-mob {
-  text-align: left;
-  // @media (min-width: 576px) {
-  //   display: none;
-  // }
-}
-
 #sidenav {
   padding: 0;
 }
