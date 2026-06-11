@@ -4,22 +4,20 @@
       = haml :_sidenav
       .col.s12.m10#about-section
         %div
-          %h4
+          %h1.greeting
             Hi, I'm Jasper :)
 
-            %br
-            %br
+          %p.intro
             I work in tech and live in London and Bath. Professionally I build web apps, mainly using Ruby and JavaScript. Off the clock I'm always down to skateboard, surf or travel. Less often I also like to write or make generative art.
 
-          %h6.skew-forward-on-hover
-            %a{href: "/about"}
-              Read more
-              %span.finger ☞
+          %a.read-more.skew-forward-on-hover{href: "/about"}
+            Read more
+            %span.finger ☞
       #section-container.col.s12.m10.offset-m2
         .col.s12.l6#posts-section
           %div
             %a{href: 'posts?tags='}
-              %h4 Posts
+              %h2.section-label Posts
             - for_index(@notes).each do |note|
               .note-overview
                 %ul
@@ -34,6 +32,6 @@
 
         .col.s12.l6#contact-section
           %canvas#canvas
-          %h1#overlay
+          %h2#overlay
             %a{href: "/contact"}
               Say hi
