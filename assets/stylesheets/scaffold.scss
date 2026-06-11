@@ -74,6 +74,21 @@
       background-color: transparent;
       border-bottom: none;
     }
+
+    // Let the links wrap instead of overflowing the viewport on phones.
+    @media (max-width: 600px) {
+      height: auto;
+      line-height: 2.4;
+
+      li {
+        float: none;
+        display: inline-block;
+      }
+
+      li > a {
+        padding: 0 0.6rem;
+      }
+    }
   }
 
   blockquote {
