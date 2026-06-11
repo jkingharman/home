@@ -27,11 +27,11 @@
 
 #about-section {
   margin-bottom: 0.2em;
-  background-color: 181818;
+  background-color: #181818;
   div {
-    padding: 40;
+    padding: 40px;
     @media (max-width: 600px) {
-      padding: 20;
+      padding: 20px;
     }
   }
 
@@ -115,9 +115,9 @@
     }
   }
   div {
-    padding: 40;
+    padding: 40px;
     @media (max-width: 600px) {
-      padding: 20;
+      padding: 20px;
     }
 
     @media (max-width: 992px) {
@@ -133,7 +133,7 @@
     margin-bottom: 0.2em;
   }
 
-  background-color: 181818;
+  background-color: #181818;
 
   h4 {
     font-family: 'Soehne-kraftig';
@@ -163,11 +163,11 @@
 
   padding: 0;
   cursor: pointer;
-  background-color: 181818;
+  background-color: #181818;
   div {
-    padding: 40;
+    padding: 40px;
     @media (max-width: 600px) {
-      padding: 20;
+      padding: 20px;
     }
   }
   h1 {
