@@ -4,23 +4,25 @@
     margin-top: 0.4rem;
   }
   li > span {
-    color: black;
+    color: var(--color-ink);
     cursor: pointer;
     border-radius: 2px;
     margin: 0.2rem;
-    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
-    border: 1px solid #ED6C5C;
+    padding: 0.15rem 0.6rem;
+    border: 1px solid var(--color-accent);
+    font-family: "Soehne-buch";
+    font-size: var(--text-sm);
   }
 
   @media (hover: hover) {
     li > span:hover {
       background-color: black;
-      color: #ED6C5C;
+      color: var(--color-accent);
     }
   }
 
   li > span.active {
     background-color: black;
-    color: #ED6C5C;
+    color: var(--color-accent);
   }
 }
