@@ -20,6 +20,45 @@
     margin-top: 0.8rem;
   }
 
+  // In-body headings from Markdown. Without these they'd fall through to
+  // Materialize's 4rem system-font defaults.
+  h2, h3, h4 {
+    font-family: "Soehne-halbfett";
+    line-height: 1.25;
+    margin: 1.8em 0 0.6em;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  h3 {
+    font-size: 1.35em;
+  }
+
+  h4 {
+    font-size: 1.15em;
+  }
+
+  // Materialize strips list styling; restore it for Markdown lists in the body.
+  ul, ol {
+    padding-left: 1.8rem;
+    margin-bottom: 1.5rem;
+
+    li {
+      line-height: 165%;
+      color: #222;
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  blockquote {
+    font-style: italic;
+  }
+
   .dropcap::first-letter {
     float: left;
     font-size: 3.0rem;
@@ -57,6 +96,8 @@
     span {
       font-size: 1.1em;
       font-family: "Soehne-halbfett";
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
 
     font-family: "Soehne-buch";
