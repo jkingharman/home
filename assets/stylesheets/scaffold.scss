@@ -1,3 +1,13 @@
+// Shared design tokens. The SCSS files compile independently (no cross-file
+// @import), so runtime custom properties are how values are shared between them.
+:root {
+  --color-accent: #ED6C5C;
+  --color-ink: #222;
+  --color-muted: #6e6e6e;
+  --text-xs: 0.75rem;
+  --text-sm: 0.9rem;
+}
+
 @media screen {
   /* --- Reset Styles --- */
   * {
