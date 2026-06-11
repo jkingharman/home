@@ -30,12 +30,16 @@
     font-size: 1.2em;
     line-height: 1.7em;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     text-rendering: optimizeLegibility !important;
   }
 
   main {
     flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
   }
 
   #navlinks {
@@ -112,6 +116,9 @@
     padding: 0px;
     min-width: 300px;
     background-color: transparent;
+    // Pins the footer to the bottom of the viewport on short pages
+    // (body and main are flex columns).
+    margin-top: auto;
 
     .col {
       padding: 0;
